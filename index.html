@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bienvenido al Himnario</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="hero">
+    <img src="img/portada.png" alt="Portada" class="portada">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Bienvenido al Himnario Digital </h1>
+      <h1>Iglesia Adventista de Dios del Septimo Dia en Reforma
+      </h1>
+      <div id="versiculoDia" class="versiculo-destacado">Cargando versículo...</div>
+      <a href="inicio.html" class="hero-button">Entrar al Himnario</a>
+    </div>
+  </div>
+
+  <div class="creditos-footer">
+    © 2025 Iglesia Adventista en Reforma – Himnario Digital
+  </div>
+
+  <script src="js/versiculo.js"></script>
+  <script>
+    const button = document.querySelector('.hero-button');
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.body.classList.add('fade-out');
+      setTimeout(() => {
+        window.location.href = button.href;
+      }, 500);
+    });
+  </script>
+</body>
+</html>
