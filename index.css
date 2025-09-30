@@ -35,7 +35,7 @@ body {
 }
 
 .hero-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 65000;
   color: #ffffff;
   margin-bottom: 2rem;
@@ -45,7 +45,7 @@ body {
 }
 
 .titulo-principal {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   color: #ffeb3b;
   text-align: center;
@@ -56,12 +56,12 @@ body {
 }
 
 .versiculo-destacado {
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-style: italic;
   color: #ffeb3b;
   text-align: center;
   margin-top: 1.5rem;
-  padding: 2.5rem 1rem;
+  padding: 2rem .90rem;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.288);
@@ -125,7 +125,7 @@ body {
 
   .hero-button {
     font-size: 1rem;
-    padding: 0.6rem 1.2rem;
+    padding: 01rem 1rem;
   }
 
   .hero-overlay {
