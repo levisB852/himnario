@@ -16757,36 +16757,45 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Hermanos, quiero decirles algo que me desespera",
-        "Es que la humanidad vive como si Dios no existiera",
-        "Llenos se encuentran los parques, playas y las carreteras",
-        "Y las iglesias vacías, como si Dios no existiera"
+        "//Hermanos, quiero decirles algo que me desespera//",
+        "//Es que la humanidad vive como si Dios no existiera//"
+        
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Ya no se lee la Biblia, otras cosas son primeras",
-        "Porque la humanidad vive como si Dios no existiera"
-      ]
+        "//Llenos se encuentran los parques, playas y las carreteras//",
+        "//Y las iglesias vacías, como si Dios no existiera//"
+       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
-      "lines": [
-        "Mi Cristo pronto viene, a levantar a su iglesia",
-        "Pero la humanidad vive, como si Dios no existiera"
+      "lines": [ 
+        "//Ya no se lee la Biblia, otras cosas son primeras//",
+        "//Porque la humanidad vive como si Dios no existiera//"
+        
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Jesús nos tiene promesas, para todo el que en él cree",
-        "Pero la humanidad vive, como si Dios no existiera"
+        "//Mi Cristo pronto viene, a levantar a su iglesia//",
+        "//Pero la humanidad vive, como si Dios no existiera//"
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Estrofa 5",
+      "lines": [
+        "//Jesús nos tiene promesas, para todo el que en él cree//",
+        "//Pero la humanidad vive, como si Dios no existiera//"
       ]
     }
+
   ]
 },
 {
@@ -16800,7 +16809,8 @@
         "Hay tan sólo dos sendas en qué andar",
         "Una es la estrecha, de vida y lucha",
         "Mas la otra desciende al caos del error",
-        "Su amor engaño, su gozo es dolor"
+        "Su amor engaño, ///su gozo es dolor///"
+        
       ]
     },
     {
@@ -16810,7 +16820,7 @@
         "Hay tan sólo dos guías para el viador",
         "Cristo, el amante y benigno Pastor",
         "Y el fiero maligno con saña infernal",
-        "Que oculta entre flores veneno mortal"
+        "Que oculta entre flores ///veneno mortal///"
       ]
     },
     {
@@ -16830,7 +16840,7 @@
         "Entra presto en la senda de vida y paz",
         "Y huye del camino mundano, falaz",
         "Acude al convite del Consolador",
-        "Que espérate amante tu fiel Salvador"
+        "Que espérate amante ///tu fiel Salvador///"
       ]
     }
   ]
@@ -16939,8 +16949,8 @@
         "En días de Noé cuando el hombre sin Dios",
         "No quiso obedecer la voz de santidad",
         "Y por su rebelión y duro corazón les alcanzó su mal",
-        "Y del cielo bajó con todo su furor",
-        "El juicio destructor del diluvio fatal"
+        "//Y del cielo bajó con todo su furor",
+        "El juicio destructor del diluvio fatal//"
       ]
     },
     {
@@ -16952,8 +16962,8 @@
         "Allá cuando Israel que cautivo cayó",
         "Jehová siempre miró a su siervo Daniel",
         "Ese Dios del ayer, hoy contemplando está si tú haces el bien",
-        "Y recompensará con la vida eternal",
-        "Al que aborrece el mal y quiere serle fiel"
+        "//Y recompensará con la vida eternal",
+        "Al que aborrece el mal y quiere serle fiel//"
       ]
     }
   ]
@@ -17313,7 +17323,7 @@
       "label": "Estrofa 1",
       "lines": [
         "En este día de fiesta alegre donde el cristiano se viene a gozar",
-        "Todos trayendo un homenaje, a la pareja que lista está",
+        "//Todos trayendo un homenaje, a la pareja que lista está//",
         "A realizar su matrimonio, mostrando así su lealtad",
         "Ante su Dios y sus padres queridos",
         "Por obtener hoy este triunfo, de ver sus hijos frente al altar"
@@ -17335,7 +17345,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Esta alegría que hoy se comparte como un ambiente espiritual",
-        "Dando así la bienvenida a las personas en general",
+        "//Dando así la bienvenida a las personas en general//",
         "Y muy presente aquí, la iglesia, con este canto quiere saludar",
         "Y aconsejar a este matrimonio que hoy empieza su nuevo hogar",
         "Que busquen siempre a Dios de rodillas",
@@ -17362,10 +17372,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Hoy es un día inolvidable para los dos",
+        "//Hoy es un día inolvidable para los dos",
         "El amor es algo bello que Dios creó",
         "Dos corazones entrelazados se unen hoy",
-        "Para vivir siempre felices, es la voluntad de Dios"
+        "Para vivir siempre felices, es la voluntad de Dios//"
       ]
     },
     {
@@ -17529,7 +17539,7 @@
         "El matrimonio es el sello del amor",
         "Que convierte en un solo miembro a los que antes eran dos",
         "Ese amor que ahora se ha unido, si los ha unido Dios",
-        "No podrá jamás el hombre hacer la separación"
+        "//No podrá jamás el hombre// hacer la separación"
       ]
     },
     {
@@ -17539,7 +17549,7 @@
         "Es mejor, dijo el siervo de Dios",
         "Cásense los que quieran y no ofendan a Dios",
         "Porque los que pecan quebrantan la ley de Dios",
-        "Pues el matrimonio es una ley de Dios"
+        "//Pues el matrimonio// es una ley de Dios"
       ]
     },
     {
@@ -17549,7 +17559,8 @@
         "Hoy la iglesia se ha reunido a darle la felicitación",
         "A los que hoy se están uniendo como lo ordena el Señor",
         "Honroso es el matrimonio en todo, dice el Señor",
-        "Halló bien, si halló esposa alcanzó benevolencia, benevolencia de Jehová"
+        "//Halló bien, si halló esposa alcanzó benevolencia,",
+        "benevolencia de Jehová//"
       ]
     }
   ]
@@ -17615,7 +17626,7 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Aleluya, Aleluya, Aleluya",
+        "//Aleluya//, //Aleluya//, //Aleluya//",
         "¡Aleluya, cantarán!"
       ]
     },
@@ -17659,9 +17670,9 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
+        "//¡Aleluya! ¡Amén!//",
         "¡Aleluya! ¡Amén!",
-        "¡Aleluya! ¡Amén!",
-        "Amén"
+        "///Amén///"
       ]
     },
     {
@@ -17695,7 +17706,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "En el principio creó Dios los cielos, la tierra y el mar",
+        "//En el principio creó Dios los cielos, la tierra y el mar//",
         "Hizo al hombre de la tierra, espíritu de vida le dio",
         "Hizo a Eva de su cuerpo, varona se llamará"
       ]
@@ -17704,21 +17715,22 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Es la historia de Isaac ejemplo",
-        "Con Rebeca pudieron se amar",
+        "//Es la historia de Isaac ejemplo",
+        "Con Rebeca pudieron se amar//",
         "Sin conocerse se unieron con cariño sincero y fraternal",
         "Eran gentes de un pueblo dirigidos por algo espiritual",
-        "No tuvieron intereses en carácter o algo material"
+        "//No tuvieron intereses en carácter o algo material//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Sea un grato y feliz momento a los que se unen frente a este altar",
+        "//Sea un grato y feliz momento a",
+        "los que se unen frente a este altar//",
         "Pidan siempre bendiciones al Padre celestial",
         "Nos unimos a cantarles y darles felicitación",
-        "Les deseamos con anhelo, la iglesia de todo corazón"
+        "//Les deseamos con anhelo, la iglesia de todo corazón//"
       ]
     }
   ]
@@ -17804,15 +17816,16 @@
         "Cuando Dios vio aquel Adán en el huerto sin consuelo",
         "Lo hizo caer en sueño, y del costado le formó",
         "Una hermosa compañera, que cuando Adán despertó",
-        "Dijo: “Es carne de mi carne”; dijo: “Es hueso de mis huesos”, “varona” se llamará"
+        "Dijo: “Es carne de mi carne”; dijo:",
+        "“Es hueso de mis huesos”, “varona” se llamará"
       ]
     },
     {
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Por lo tanto dejarán padre, madre",
-        "Y se unirán, y ambos ya serán una sola carne"
+        "//Por lo tanto dejarán padre, madre",
+        "Y se unirán, y ambos ya serán una sola carne//"
       ]
     },
     {
@@ -17822,7 +17835,8 @@
         "Es honroso el matrimonio y el lecho sin mancilla",
         "Pero se conservarán para sí, toda la vida",
         "Porque lo que Dios juntare, no lo podrán separar",
-        "Pues lo dice su Palabra: que mientras los dos vivieren para siempre se amarán"
+        "Pues lo dice su Palabra: que mientras",
+        "los dos vivieren para siempre se amarán"
       ]
     }
   ]
@@ -17847,12 +17861,12 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Esta fiesta se llama: “las bodas del Cordero”",
+        "//Esta fiesta se llama: “las bodas del Cordero”",
         "Donde Dios y su pueblo se unen en amor",
         "El que lave sus ropas en la sangre de Cristo",
         "Y su nombre esté escrito en el libro de Dios",
         "Disfrutará las bodas, gozará del banquete",
-        "Y vivirá por siempre en grande bendición"
+        "Y vivirá por siempre en grande bendición//"
       ]
     }
   ]
@@ -17883,10 +17897,10 @@
     },
     {
       "type": "chorus",
-      "label": "Coro",
+      "label": " ",
       "lines": [
-        "Felicidades, felicidades",
-        "Hermanos míos digan todos a una voz"
+        "//Felicidades, felicidades",
+        "Hermanos míos digan todos a una voz//"
       ]
     },
     {
@@ -17939,7 +17953,7 @@
 {
   "number": 408,
   "title": "Muy pronto Cristo viene",
-  "author": "Douglas A. Gutiérrez",
+  "author": "Douglas Gutiérrez",
   "content": [
     {
       "type": "verse",
@@ -17955,9 +17969,9 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "El volverá, él volverá",
+        "//El volverá, él volverá//",
         "Estemos listos porque él pronto volverá",
-        "El volverá, él volverá",
+        "//El volverá, él volverá//",
         "Jesucristo en las nubes volverá"
       ]
     },
@@ -17993,8 +18007,8 @@
       "lines": [
         "Sólo esperamos el día de su venida",
         "Día de gozo y de grande salvación",
-        "Para aquellos que en Cristo creemos",
-        "¡Allá en el cielo nos espera mansión!"
+        "//Para aquellos que en Cristo creemos",
+        "¡Allá en el cielo nos espera mansión!//"
       ]
     },
     {
@@ -18003,8 +18017,8 @@
       "lines": [
         "Pronto veremos todita la hermosura",
         "De la ciudad celeste del gran Rey",
-        "Calles de oro y puertas de perla",
-        "Y miremos un río de cristal"
+        "//Calles de oro y puertas de perla",
+        "Y miremos un río de cristal//"
       ]
     },
     {
@@ -18013,8 +18027,8 @@
       "lines": [
         "Contemplaremos los veinticuatro ancianos",
         "Los que rodean el trono del Señor",
-        "Todos unidos adoran al Cordero",
-        "Seres vivientes le cantan sin cesar"
+        "//Todos unidos adoran al Cordero",
+        "Seres vivientes le cantan sin cesar//"
       ]
     },
     {
@@ -18023,8 +18037,8 @@
       "lines": [
         "Y cuando sean las bodas del Cordero",
         "Su mesa santa Cristo nos servirá",
-        "Contemplaremos sus vestiduras blancas",
-        "Y nuestras lágrimas se nos enjugarán"
+        "//Contemplaremos sus vestiduras blancas",
+        "Y nuestras lágrimas se nos enjugarán//"
       ]
     },
     {
@@ -18033,8 +18047,8 @@
       "lines": [
         "Somos felices los que hemos recibido",
         "Esa promesa bendita del Señor",
-        "Pedidla, hermano, si no la has recibido",
-        "Para poder con Cristo ir a gozar"
+        "//Pedidla, hermano, si no la has recibido",
+        "Para poder con Cristo ir a gozar//"
       ]
     }
   ]
@@ -18059,8 +18073,8 @@
       "lines": [
         "He peleado la batalla, Señor!",
         "Le diré mi carrera al terminar",
-        "Y también he guardado la fe",
-        "Sólo espero me vengas a llevar"
+        "//Y también he guardado la fe",
+        "Sólo espero me vengas a llevar//"
       ]
     },
     {
@@ -18105,8 +18119,8 @@
       "lines": [
         "Muy pronto Cristo viene en las nubes",
         "En un momento nos levantará",
-        "Esperemos ese evento precioso",
-        "Que muy pronto acontecerá"
+        "//Esperemos ese evento precioso",
+        "Que muy pronto acontecerá//"
       ]
     },
     {
@@ -18124,8 +18138,8 @@
       "lines": [
         "La esperanza de todo fiel cristiano",
         "Es gozar con Cristo Jesús",
-        "En un abrir y cerrar de ojos",
-        "Todos los santos con Cristo se irán"
+        "//En un abrir y cerrar de ojos",
+        "Todos los santos con Cristo se irán//"
       ]
     },
     {
@@ -18134,8 +18148,8 @@
       "lines": [
         "¿Y tú, amigo, que no has entendido",
         "Lo que mi Dios tiene para ti?",
-        "Hoy es tiempo que le aceptes",
-        "Y en gloria con él estarás"
+        "//Hoy es tiempo que le aceptes",
+        "Y en gloria con él estarás//"
       ]
     }
   ]
@@ -18178,14 +18192,16 @@
 {
   "number": 413,
   "title": "Mi Cristo un día vendrá",
-  "author": "Edwin M. Gutiérrez",
+  "author": "Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Mi Cristo un día vendrá, vendrá, sí, vendrá desde los cielos oh, oh",
-        "Con poder y gloria eterna a llevar a su pueblo que esperándole está"
+        "Mi Cristo un día vendrá, vendrá, sí,",
+        "vendrá desde los cielos oh, oh",
+        "//Con poder y gloria eterna a llevar",
+        "a su pueblo que esperándole está//"
       ]
     },
     {
@@ -18202,15 +18218,17 @@
       "lines": [
         "La venida de nuestro Señor, gloriosa será, oh, sí será",
         "Para los redimidos oh, oh",
-        "Pues todos le alabaremos, y victoria tendremos con nuestro Señor"
+        "//Pues todos le alabaremos,",
+        "y victoria tendremos con nuestro Señor//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "La iglesia de nuestro Señor que él compró y redimió en el madero, oh, oh",
-        "Será bienaventurada, pues de lino fino vestida será"
+        "La iglesia de nuestro Señor que él",
+        "compró y redimió en el madero, oh, oh",
+        "//Será bienaventurada, pues de lino fino vestida será//"
       ]
     }
   ]
@@ -18225,8 +18243,8 @@
       "lines": [
         "Llegáronse los tiempos, cumpliéronse los días",
         "De aquellas profecías que el Señor habló",
-        "Cuando íbase del templo al monte los Olivos",
-        "Y con palabras vivas señales nos dejó"
+        "//Cuando íbase del templo al monte los Olivos",
+        "Y con palabras vivas señales nos dejó//"
       ]
     },
     {
@@ -18235,8 +18253,8 @@
       "lines": [
         "Ya vemos que los tiempos cuán breves van pasando",
         "Señales demostrando que Cristo viene ya",
-        "Nos habla por las aguas, nos habla por los vientos",
-        "Que ya se acerca el tiempo, que Cristo volverá"
+        "//Nos habla por las aguas, nos habla por los vientos",
+        "Que ya se acerca el tiempo, que Cristo volverá//"
       ]
     },
     {
@@ -18245,8 +18263,8 @@
       "lines": [
         "¿Por qué pues tus pecados a Cristo no dejar?",
         "Si él los ha borrado con su muerte en la cruz",
-        "Él es tu abogado, él es tu intercesor",
-        "Y quiere hoy liberarte en prueba de su amor"
+        "//Él es tu abogado, él es tu intercesor",
+        "Y quiere hoy liberarte en prueba de su amor//"
       ]
     }
   ]
@@ -18349,24 +18367,24 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Ya mi Cristo pronto viene, a mí me levantará",
-        "Mi cuerpo será transformado de muerte a inmortalidad"
+        "//Ya mi Cristo pronto viene, a mí me levantará//",
+        "//Mi cuerpo será transformado de muerte a inmortalidad//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Hermano, prepárate ahora, y Cristo te levantará",
-        "Tu cuerpo será transformado de muerte a inmortalidad"
+        "//Hermano, prepárate ahora, y Cristo te levantará//",
+        "//Tu cuerpo será transformado de muerte a inmortalidad//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Amigo, acéptale ahora, si no te quieres quedar",
-        "Y todos juntos estaremos con Cristo por la eternidad"
+        "//Amigo, acéptale ahora, si no te quieres quedar//",
+        "//Y todos juntos estaremos con Cristo por la eternidad//"
       ]
     }
   ]
