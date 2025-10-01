@@ -18486,8 +18486,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Regresa ya, regresa pronto la cosecha a levantar",
-        "Regresa ya, un pueblo listo con fervor espera hallar"
+        "//Regresa ya,// regresa pronto la cosecha a levantar",
+        "//Regresa ya,// un pueblo listo con fervor espera hallar"
       ]
     },
     {
@@ -18522,8 +18522,8 @@
       "lines": [
         "Ya la iglesia se va de esta tierra",
         "Porque aquí no está su mansión",
-        "Volaremos con gozo a los cielos",
-        "Donde mora Jesús mi Señor"
+        "//Volaremos con gozo a los cielos",
+        "Donde mora Jesús mi Señor//"
       ]
     },
     {
@@ -18532,8 +18532,8 @@
       "lines": [
         "Las profecías ya se están cumpliendo",
         "Fue la señal que Jesús nos dejó",
-        "Cuando venga glorioso en las nubes",
-        "A levantar a su iglesia triunfal"
+        "//Cuando venga glorioso en las nubes",
+        "A levantar a su iglesia triunfal//"
       ]
     },
     {
@@ -18542,8 +18542,8 @@
       "lines": [
         "Gozaremos con Cristo mil años",
         "Los creyentes allá en su mansión",
-        "Bienaventurados los que tengan parte",
-        "En la primera resurrección"
+        "//Bienaventurados los que tengan parte",
+        "En la primera resurrección//"
       ]
     },
     {
@@ -18552,8 +18552,8 @@
       "lines": [
         "La segunda muerte no tendrá parte en ellos",
         "Porque serán sacerdotes de Dios",
-        "En el cielo con nuestro Señor",
-        "En el cielo con nuestro Señor"
+        "//En el cielo con nuestro Señor",
+        "En el cielo con nuestro Señor//"
       ]
     }
   ]
@@ -18577,9 +18577,9 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Levantemos nuestras manos y miremos hacia el cielo",
+        "//Levantemos nuestras manos y miremos hacia el cielo",
         "Que ya viene el Redentor, para llevar a su iglesia",
-        "A gozar allá en las bodas por mil años"
+        "A gozar allá en las bodas por mil años//"
       ]
     },
     {
@@ -18706,8 +18706,8 @@
       "lines": [
         "Levántate y vela, no estés muy confiado",
         "Porque Jesucristo muy pronto vendrá",
-        "Porque si tú velas, te estás preparando",
-        "Para irte con Cristo a la eternidad"
+        "//Porque si tú velas, te estás preparando",
+        "Para irte con Cristo a la eternidad//"
       ]
     },
     {
@@ -18716,8 +18716,8 @@
       "lines": [
         "No pienses quedarte aquí al sufrimiento",
         "Porque todo el mundo se lamentará",
-        "Allí será el lloro y el crujir de dientes",
-        "Cuando las estrellas del cielo caerán"
+        "//Allí será el lloro y el crujir de dientes",
+        "Cuando las estrellas del cielo caerán//"
       ]
     },
     {
@@ -18726,8 +18726,8 @@
       "lines": [
         "Se llegó el momento de su gran venida",
         "Porque Jesucristo lo profetizó",
-        "Los ángeles tocan trompeta en el aire",
-        "Anuncian que Cristo muy pronto vendrá"
+        "//Los ángeles tocan trompeta en el aire",
+        "Anuncian que Cristo muy pronto vendrá//"
       ]
     },
     {
@@ -18736,8 +18736,8 @@
       "lines": [
         "Erguíos, hermanos, levantad cabeza",
         "Oíd los clarines que dan su señal",
-        "El sol se oscurece y la tierra tiembla",
-        "Porque ya se acerca el juicio final"
+        "//El sol se oscurece y la tierra tiembla",
+        "Porque ya se acerca el juicio final//"
       ]
     }
   ]
@@ -18844,7 +18844,7 @@
       "lines": [
         "Yo estaré muy alegre y en mi corazón cantaré",
         "Siempre “vivas” a mi Salvador gritaré",
-        "Cuando suba dichoso en las nubes",
+        "//Cuando suba dichoso en las nubes//",
         "A encontrarle a él"
       ]
     },
@@ -18871,7 +18871,7 @@
         "La segunda venida de Cristo un suceso imponente será",
         "Tan grandioso cual nunca fue visto; más glorioso jamás se verá",
         "De los cielos el Hijo del hombre en la gloria del Padre vendrá",
-        "“Verdadero y Fiel” es su nombre, y el cetro del reino tendrá"
+        "//“Verdadero y Fiel” es su nombre, y el cetro del reino tendrá//"
       ]
     },
     {
@@ -18881,7 +18881,7 @@
         "Cual relámpago, luce del este una nube con luz del crisol",
         "Cuyo brillo, que alcanza al oeste, sobrepuja los rayos del sol",
         "Es la hueste de ángeles santos, refulgentes de gloria y luz",
-        "Que escoltan y loan con cantos al invicto y glorioso Jesús"
+        "//Que escoltan y loan con cantos al invicto y glorioso Jesús//"
       ]
     },
     {
@@ -18891,7 +18891,7 @@
         "Los impíos de miedo se espantan y perecen al ver al Señor",
         "Mas los justos las manos levantan hacia Cristo, su buen Redentor",
         "Contemplando sus gratos fulgores, le aclaman con férvida voz",
-        "Rey de reyes, Señor de Señores; mil hosannas al Hijo de Dios"
+        "//Rey de reyes, Señor de Señores; mil hosannas al Hijo de Dios//"
       ]
     },
     {
@@ -18901,7 +18901,7 @@
         "Del sepulcro los lazos quebranta que ataban al pobre mortal",
         "A sus santos Jesús los levanta revestidos de luz inmortal",
         "Y los lleva consigo al cielo, los corona y palmas les da",
-        "Y entonces disfrutan sin velo la presencia del Dios Jehová"
+        "//Y entonces disfrutan sin velo la presencia del Dios Jehová//"
       ]
     }
   ]
@@ -19191,7 +19191,7 @@
       "label": "Coro",
       "lines": [
         "Gloria, gloria al Señor, Rey de la eternidad",
-        "Gloria aleluya, su pueblo exclamará",
+        "//Gloria aleluya, su pueblo exclamará//",
         "Y a sus fieles creyentes en gloria llevará"
       ]
     },
@@ -19372,7 +19372,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Ya viene Cristo en las nubes, viene con grande poder",
-        "Para llevar a su pueblo que con su sangre compró"
+        "//Para llevar a su pueblo que con su sangre compró//"
       ]
     },
     {
@@ -19380,7 +19380,7 @@
       "label": "Coro",
       "lines": [
         "Gloria, gloria aleluya, a mi bendito Señor",
-        "Porque él ha salvado mi alma de eterna condenación"
+        "//Porque él ha salvado mi alma de eterna condenación//"
       ]
     },
     {
@@ -19388,7 +19388,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Cuando yo andaba en el mundo, sin Dios y sin el perdón",
-        "Oí hablar de mi Cristo, de aquél que da salvación"
+        "//Oí hablar de mi Cristo, de aquél que da salvación//"
       ]
     },
     {
@@ -19396,7 +19396,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Oh, qué precioso ese día cuando venga nuestro Rey",
-        "Será un día de gloria en que iremos a gozar"
+        "//Será un día de gloria en que iremos a gozar//"
       ]
     },
     {
@@ -19404,7 +19404,7 @@
       "label": "Estrofa 4",
       "lines": [
         "Es la palabra de Cristo que aquí nos dice verdad",
-        "Que todo aquél que triunfare, corona heredará"
+        "//Que todo aquél que triunfare, corona heredará//"
       ]
     },
     {
@@ -19412,7 +19412,7 @@
       "label": "Estrofa 5",
       "lines": [
         "Cuando estemos en la gloria alabando al Salvador",
-        "Contaremos la historia, que Cristo ya nos salvó"
+        "//Contaremos la historia, que Cristo ya nos salvó//"
       ]
     }
   ]
@@ -19601,10 +19601,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Bienvenido eres tú, a la casa del Señor",
+        "//Bienvenido eres tú, a la casa del Señor",
         "Pon tu mano en mi mano y alabemos al Creador",
         "A él no le importa el color, para todos sale el sol",
-        "Es una dicha tenerte, bienvenido seas tú"
+        "Es una dicha tenerte, bienvenido seas tú//"
       ]
     },
     {
@@ -19638,8 +19638,8 @@
         "¡Bienvenidos seáis, hermanos, en el nombre de Cristo Jesús!",
         "Hoy unidos nos gozamos al saber que nos une su amor",
         "Demos gracias por ser salvos, y nuestra alma sienta gratitud",
-        "Porque sólo Jesús nos da vida y salud",
-        "Y la gloria al que lleva su cruz"
+        "//Porque sólo Jesús nos da vida y salud",
+        "Y la gloria al que lleva su cruz//"
       ]
     },
     {
@@ -19669,7 +19669,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Sean bienvenidos, amados hermanos, en el bendito nombre de Cristo Jesús",
-        "¡Alegres gozaremos juntos esta hora, cantando y bendiciendo el nombre de Dios!"
+        "//¡Alegres gozaremos juntos esta hora, cantando y bendiciendo el nombre de Dios!//"
       ]
     },
     {
@@ -19677,7 +19677,8 @@
       "label": "Estrofa 2",
       "lines": [
         "Que el Señor bendiga los pasos que han dado, trayendo buenas nuevas a este lugar",
-        "En el día glorioso corona tendremos por Cristo el Rey de gloria que en el cielo está"
+        "//En el día glorioso corona tendremos por Cristo el Rey",
+        "de gloria que en el cielo está//"
       ]
     },
     {
@@ -19685,7 +19686,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Él con sus lindos ojos está contemplando su pueblo redimido por su grande amor",
-        "Cantemos alabanzas ahora y siempre, con toda nuestra alma y el corazón"
+        "//Cantemos alabanzas ahora y siempre, con toda nuestra alma y el corazón//"
       ]
     },
     {
@@ -19693,7 +19694,7 @@
       "label": "Estrofa 4",
       "lines": [
         "Los hombres en el mundo quedan admirados, al ver a los creyentes gozosos así",
-        "¡Alabemos al Padre y también al Hijo y al Espíritu Santo que hoy está aquí"
+        "//¡Alabemos al Padre y también al Hijo y al Espíritu Santo que hoy está aquí//"
       ]
     },
     {
@@ -19701,7 +19702,7 @@
       "label": "Estrofa 5",
       "lines": [
         "Seamos muy valientes en su santa obra, hablándole a las almas de su gran verdad",
-        "En el duro madero entregó su vida, por darle salvación a la humanidad"
+        "//En el duro madero entregó su vida, por darle salvación a la humanidad//"
       ]
     }
   ]
@@ -19801,8 +19802,8 @@
       "lines": [
         "¡Yo me alegré con los que me decían!",
         "Vamos a la casa de Dios Jehová",
-        "Vamos a adorarle, también a bendecirle",
-        "A ese bendito nombre sublime de Jesús"
+        "//Vamos a adorarle, también a bendecirle",
+        "A ese bendito nombre sublime de Jesús//"
       ]
     },
     {
@@ -19811,8 +19812,8 @@
       "lines": [
         "Sean bienvenidos todos mis hermanos",
         "Sean bienvenidos a la casa de Dios",
-        "Vénganse los pueblos, así también los valles",
-        "Que aquí les recibimos con todo el corazón"
+        "//Vénganse los pueblos, así también los valles",
+        "Que aquí les recibimos con todo el corazón//"
       ]
     },
     {
@@ -19821,8 +19822,8 @@
       "lines": [
         "¡Cuántos han venido de lejanas tierras",
         "A alabar el nombre de Cristo Jesús",
-        "Ellos son testigos, también son mensajeros",
-        "Que Cristo ya viene enviado a su labor"
+        "//Ellos son testigos, también son mensajeros",
+        "Que Cristo ya viene enviado a su labor//"
       ]
     }
   ]
