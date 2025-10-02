@@ -19872,7 +19872,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Si en este mundo tú no eres feliz",
+        "//Si en este mundo tú no eres feliz",
         "Espero que me escuches te voy a decir",
         "Tengo un mensaje nuevo para ti",
         "Espero que no dudes de la verdad",
@@ -19887,7 +19887,7 @@
         "Si tú quisieras aceptarle ahora, qué feliz serías",
         "Su amor, su sangre, su perdón te ha dado para que tú vivas",
         "Por el amor y el perdón de Jesucristo, él te ha salvado",
-        "Y por tus pecados él dio su vida"
+        "Y por tus pecados él dio su vida//"
       ]
     }
   ]
@@ -19948,8 +19948,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Señor Jesús, hasta aquí he decidido ya no pecar más",
-        "Señor Jesús, toma mi alma y haz de ella tu voluntad"
+        "//Señor Jesús, hasta aquí he decidido ya no pecar más",
+        "Señor Jesús, toma mi alma y haz de ella tu voluntad//"
       ]
     },
     {
@@ -19959,7 +19959,8 @@
         "Trae tu alma que estás a tiempo",
         "Mañana tarde será y tú no podrás obrar",
         "Ya no resistas más, toma tu lugar",
-        "Y deja que el buen Jesús tome tus cargas en sus manos, sí, y dile así"
+        "Y deja que el buen Jesús tome tus cargas en sus manos,",
+        "sí, y dile así"
       ]
     }
   ]
@@ -19985,10 +19986,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Oh, juventud cristiana, no mires atrás",
+        "//Oh, juventud cristiana, no mires atrás",
         "El tiempo se va, se va y se va y no volverá",
         "Oh, juventud cristiana, el futuro depende de ti",
-        "La palabra de Dios no dejes morir"
+        "La palabra de Dios no dejes morir//"
       ]
     },
     {
@@ -20024,8 +20025,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¡Qué bueno es el Señor, que me ha dado la vida!",
-        "¡Qué bueno es el Señor, que me deja vivir!"
+        "//¡Qué bueno es el Señor, que me ha dado la vida!",
+        "¡Qué bueno es el Señor, que me deja vivir!//"
       ]
     },
     {
@@ -20078,13 +20079,14 @@
 {
   "number": 457,
   "title": "Si tú, amigo, aceptaras a Jesús",
-  "author": "Douglas A. Gutiérrez",
+  "author": "Douglas Gutiérrez",
   "content": [
     {
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Si tú, amigo, aceptaras a Jesús, no te hundirías más en el pecado",
+        "Si tú, amigo, aceptaras a Jesús,",
+        "no te hundirías más en el pecado",
         "Si obedecieras lo que dice su Palabra",
         "En aquel día no serías condenado"
       ]
@@ -20276,7 +20278,7 @@
       "label": "Coro",
       "lines": [
         "¡Dios es amor! ¡Dios es amor!",
-        "Y el que vive en amor, vive en Dios y Dios en él"
+        "//Y el que vive en amor, vive en Dios y Dios en él//"
       ]
     },
     {
@@ -20316,7 +20318,7 @@
       "lines": [
         "Jesucristo pronto viene para llevar a todo aquel obediente que haya hecho su voluntad",
         "Jesús dice: \"Si me amas, los mandamientos tienes que guardar\"",
-        "Y el que me amare mi Padre le amará"
+        "//Y el que me amare mi Padre le amará//"
       ]
     },
     {
@@ -20337,7 +20339,7 @@
         "¡Oh, mis hermanos, cantemos a mi Señor con alegría y con todo el corazón!",
         "No olvidando los mandamientos que dejó",
         "Y cuando él venga nos va a recompensar",
-        "Con él gozaremos por toda la eternidad"
+        "//Con él gozaremos por toda la eternidad//"
       ]
     }
   ]
@@ -20454,40 +20456,40 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Ya mi vida se la debo a Jesús",
-        "Porque él murió en la cruz por mí"
+        "//Ya mi vida se la debo a Jesús",
+        "Porque él murió en la cruz por mí//"
       ]
     },
     {
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¡Vida nueva encontré en Jesús mi Señor",
-        "Porque él ya mi deuda pagó!"
+        "//¡Vida nueva encontré en Jesús mi Señor",
+        "Porque él ya mi deuda pagó!//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Yo me rindo a los pies de Jesús, mi Señor",
-        "Porque fui un infiel pecador"
+        "//Yo me rindo a los pies de Jesús, mi Señor",
+        "Porque fui un infiel pecador//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "El Espíritu Santo te llama a ti",
-        "Ven a Cristo y salvo serás"
+        "//El Espíritu Santo te llama a ti",
+        "Ven a Cristo y salvo serás//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Hoy es tiempo aceptable, día de salud",
-        "Ven recibe a nuestro Salvador"
+        "//Hoy es tiempo aceptable, día de salud",
+        "Ven recibe a nuestro Salvador//"
       ]
     }
   ]
@@ -20511,7 +20513,7 @@
       "lines": [
         "Si tú, si tú no quieres sufrir en ese día ardiente",
         "Ven a Cristo el Salvador, pues él vino a morir",
-        "Clavado en una cruz para salvarte a ti"
+        "//Clavado en una cruz para salvarte a ti//"
       ]
     },
     {
@@ -20570,7 +20572,8 @@
         "Amigo, que oyendo estás, mi Cristo muy pronto vendrá",
         "Salvarte no podrás gozando de un mundo fugaz",
         "La mano de Cristo está tocando a tu corazón",
-        "¡Entrégate hoy a Jesús, confiésale tu condición, y oveja salvada serás!"
+        "¡Entrégate hoy a Jesús, confiésale tu condición,",
+        "y oveja salvada serás!"
       ]
     }
   ]
@@ -20592,7 +20595,7 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¡Ven a la luz que te da Jesús!",
+        "//¡Ven a la luz que te da Jesús!//",
         "Y vivirás allá con él",
         "Y para siempre tú no morirás"
       ]
@@ -20643,8 +20646,8 @@
       "label": "Estrofa 2",
       "lines": [
         "Allá hemos de encontrar",
-        "Junto a los redimidos gozando bendición",
-        "Cantaremos unidos allá en su mansión"
+        "//Junto a los redimidos gozando bendición",
+        "Cantaremos unidos allá en su mansión//"
       ]
     },
     {
@@ -20653,8 +20656,8 @@
       "lines": [
         "Si tú, querido hermano, hoy listo no estás",
         "Por Dios el Soberano culpado tú serás",
-        "Y para que tú puedas a las bodas entrar",
-        "Hoy tu alma él reclama, ¡“Ven a reconciliar”!"
+        "//Y para que tú puedas a las bodas entrar",
+        "Hoy tu alma él reclama, ¡“Ven a reconciliar”!//"
       ]
     },
     {
@@ -20663,8 +20666,8 @@
       "lines": [
         "Si tú, querido amigo, hoy listo no estás",
         "Recuerda que tú eres esclavo del pecar",
-        "De Dios la invitación escucha sin cesar",
-        "Ya poco tiempo queda, ¡dale hoy tu corazón!"
+        "//De Dios la invitación escucha sin cesar",
+        "Ya poco tiempo queda, ¡dale hoy tu corazón!//"
       ]
     }
   ]
@@ -20827,7 +20830,7 @@
         "Esa misma historia vuelve a repetirse",
         "Todavía hay ovejas que perdidas van",
         "Vagando en el mundo sin Dios, sin consuelo",
-        "Sin Dios, sin consuelo y sin su perdón"
+        "//Sin Dios, sin consuelo // y sin su perdón"
       ]
     }
   ]
@@ -20946,7 +20949,8 @@
       "label": "Estrofa 1",
       "lines": [
         "El fin del mundo se acerca ya, el Evangelio se acabará",
-        "Ya las señales se están cumpliendo, se están cumpliendo como escrito está"
+        "Ya las señales se están cumpliendo,",
+        "se están cumpliendo como escrito está"
       ]
     },
     {
@@ -20954,7 +20958,8 @@
       "label": "Coro",
       "lines": [
         "Querido, amigo, Cristo te llama, no hagas duro tu corazón",
-        "Ríndete a Cristo, él quiere tu alma, y tendrás parte en la resurrección"
+        "Ríndete a Cristo, él quiere tu alma,",
+        "y tendrás parte en la resurrección"
       ]
     },
     {
@@ -21123,8 +21128,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "“Ven hijo mío, ven, yo soy aquel del que has oído",
-        "Que expuso su vida por amor a ti”"
+        "//“Ven hijo mío, ven, yo soy aquel del que has oído",
+        "Que expuso su vida por amor a ti”//"
       ]
     },
     {
@@ -21759,8 +21764,8 @@
       "label": "Coro",
       "lines": [
         "Hoy puedes arrepentirte antes que sea muy tarde",
-        "En Cristo están los valientes",
-        "Y en el mundo están los cobardes"
+        "//En Cristo están los valientes",
+        "Y en el mundo están los cobardes//"
       ]
     },
     {
@@ -21928,8 +21933,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Ya no tienes que sufrir, ya no tienes que llorar",
-        "Él vino para darte paz y felicidad"
+        "//Ya no tienes que sufrir, ya no tienes que llorar",
+        "Él vino para darte paz y felicidad//"
       ]
     },
     {
@@ -22008,7 +22013,7 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¡Brilla en el sitio donde estés!",
+        "//¡Brilla en el sitio donde estés!//",
         "Puedes con tu luz algún perdido rescatar",
         "¡Brilla en el sitio donde estés!"
       ]
@@ -22130,7 +22135,7 @@
 {
   "number": 504,
   "title": "Hay muchos hermanos",
-  "author": "Edwin M. Gutiérrez",
+  "author": "Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
@@ -22372,17 +22377,17 @@
         "Vagaba yo por el mundo en una noche sin luz",
         "Sabía el nombre de Cristo, mas no que él era la luz",
         "Sabía bien que su muerte había sido en la cruz",
-        "Pero que él me amaba tanto no me lo habían dicho aún"
+        "//Pero que él me amaba tanto// no me lo habían dicho aún"
       ]
     },
     {
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¡Oh! ¡Oh! ¡Oh! ¡Oh!",
+        "//¡Oh! ¡Oh! ¡Oh! ¡Oh!",
         "Tenía trigales mi Señor",
         "Y a bellos campos me llevó",
-        "A cultivarlos me mandó"
+        "A cultivarlos me mandó//"
       ]
     },
     {
@@ -22392,7 +22397,7 @@
         "Y me llamó mi Jesús en dulce tono de voz",
         "Me dijo: \"Yo soy la luz, camina del cielo en pos\"",
         "Pues en la cruz yo pagué la deuda del pecador",
-        "Y admirado comprendí la grandeza de su amor"
+        "//Y admirado comprendí la grandeza de su amor//"
       ]
     }
   ]
@@ -22415,10 +22420,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Esfuérzate y sé valiente",
+        "//Esfuérzate y sé valiente",
         "No temas, ni desmayes",
         "Porque el Señor va contigo",
-        "A dondequiera que vayas"
+        "A dondequiera que vayas//"
       ]
     },
     {
@@ -22450,8 +22455,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Trabajaré con seguridad de mi alma",
-        "Que al terminar mi carrera le veré"
+        "//Trabajaré con seguridad de mi alma",
+        "Que al terminar mi carrera le veré//"
       ]
     },
     {
@@ -22682,10 +22687,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Con las manos hacia el cielo digamos todos",
+        "//Con las manos hacia el cielo digamos todos",
         "Bendito sea el Señor, que triunfo nos da",
         "Hoy somos un pueblo fuerte que triunfando va",
-        "Porque el Gigante en batalla delante va"
+        "Porque el Gigante en batalla delante va//"
       ]
     }
   ]
@@ -22698,7 +22703,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "No vivas de sueños ni de ilusiones, no",
+        "//No vivas de sueños ni de ilusiones, no",
         "Nada de este mundo te dará la dicha que puedas soñar",
         "Todo es pasajero, aquí nada permanecerá",
         "No vivas de sueños ni de ilusiones, vive la realidad",
@@ -22711,10 +22716,10 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "El mundo pasa y sus deseos",
+        "//El mundo pasa y sus deseos",
         "Pero el de Dios permanecerá",
         "El mundo pasa y sus deseos",
-        "Pero el de Dios permanecerá"
+        "Pero el de Dios permanecerá//"
       ]
     }
   ]
@@ -22750,7 +22755,7 @@
         "Él trabaja para los que confían",
         "Camina contigo de noche y de día",
         "Levanta tus manos, tu victoria llegó",
-        "Comienza a cantar y alaba a Dios, alaba a Dios"
+        "Comienza a cantar y //alaba a Dios, alaba a Dios//"
       ]
     },
     {
@@ -23408,8 +23413,8 @@
       "lines": [
         "Es inútil que nos tiendan barreras,",
         "Las legiones que ordenó Satán",
-        "Correremos con gozo la carrera,",
-        "Con Cristo el Insigne general"
+        "//Correremos con gozo la carrera,//",
+        "//Con Cristo el Insigne general//"
       ]
     },
     {
@@ -23418,8 +23423,8 @@
       "lines": [
         "Ni una lágrima empaña las pupilas,",
         "Ni una queja nuestra voz apagará",
-        "Lucharemos con mucho esfuerzo,",
-        "Guerreando con las huestes de Satán"
+        "//Lucharemos con mucho esfuerzo,",
+        "Guerreando con las huestes de Satán//"
       ]
     },
     {
@@ -23756,7 +23761,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Adelante grupo de los setenta, a sembrar la semilla del Señor",
-        "Con orgullo llevad el Evangelio, a las almas que están en perdición"
+        "//Con orgullo llevad el Evangelio, a las almas que están en perdición//"
       ]
     },
     {
@@ -23764,7 +23769,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Acudid pronto a rescatarlas del terrible mundo del pecar",
-        "Y llevadlas al camino glorioso, a gozar eternamente con Jesús"
+        "//Y llevadlas al camino glorioso, a gozar eternamente con Jesús//"
       ]
     },
     {
@@ -23772,7 +23777,7 @@
       "label": "Estrofa 3",
       "lines": [
         "En el cielo tendréis la recompensa, al cumplir los mandatos del Señor",
-        "De ganar las almas para Cristo, y libertarlas de la condenación"
+        "//De ganar las almas para Cristo, y libertarlas de la condenación//"
       ]
     },
     {
@@ -23780,7 +23785,7 @@
       "label": "Estrofa 4",
       "lines": [
         "Adelante grupo de los setenta, no se cansen jamás de predicar",
-        "La Palabra viva y poderosa, que da vida, gozo y salvación"
+        "//La Palabra viva y poderosa, que da vida, gozo y salvación//"
       ]
     }
   ]
@@ -23805,8 +23810,15 @@
         "Revívame, inspira hoy mi vida",
         "Prepárame para hacer tu voluntad",
         "Profundízame en tu poder y tu gracia",
-        "Pues quiero honrarte, Señor",
-        "Pues quiero honrarte Señor, pues quiero honrarte Señor"
+        "Pues quiero honrarte, Señor"
+        
+      ]
+    },
+    {
+      "type": "final",
+      "label": " ",
+      "lines": [
+        "(Pues quiero honrarte Señor, pues quiero honrarte Señor...)"
       ]
     }
   ]
@@ -24058,32 +24070,32 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Es muy triste la escena de los jóvenes sin Dios",
-        "Siendo esclavos de las drogas, violencia y confusión"
+        "//Es muy triste la escena de los jóvenes sin Dios//",
+        "//Siendo esclavos de las drogas, violencia y confusión//"
       ]
     },
     {
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "¿Con qué limpiará el joven su camino?",
-        "Con guardar la palabra, la palabra del Señor"
+        "//¿Con qué limpiará el joven su camino?//",
+        "//Con guardar la palabra, la palabra del Señor//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Han manchado su conciencia, haciendo daño a los demás",
-        "Hay un gemir en sus entrañas, tratando de escapar"
+        "//Han manchado su conciencia, haciendo daño a los demás//",
+        "//Hay un gemir en sus entrañas, tratando de escapar//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "No es tu destino ni tu suerte, que fracasado estés",
-        "Dios a todos nos ha dado capacidad para triunfar"
+        "//No es tu destino ni tu suerte, que fracasado estés//",
+        "//Dios a todos nos ha dado capacidad para triunfar//"
       ]
     }
   ]
@@ -24107,8 +24119,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Y esas lindas estrellas que adornan el cielo astral;",
-        "Así adornan a la iglesia, el joven en santidad"
+        "//Y esas lindas estrellas que adornan el cielo astral;",
+        "Así adornan a la iglesia, el joven en santidad//"
       ]
     },
     {
@@ -24118,7 +24130,7 @@
         "Oh, joven, tú que me escuchas: “Acuérdate de tu Creador",
         "No esperes el tiempo malo, pues te causará dolor",
         "Ninguno que tenga en poco tu hermosa juventud",
-        "Pero debes ser ejemplo mostrando tu gran virtud"
+        "//Pero debes ser ejemplo mostrando tu gran virtud//"
       ]
     }
   ]
@@ -24319,7 +24331,7 @@
 {
   "number": 553,
   "title": "Los muchachos se fatigan y se cansan",
-  "author": "Douglas A. Gutiérrez",
+  "author": "Douglas Gutiérrez",
   "content": [
     {
       "type": "verse",
@@ -24410,7 +24422,7 @@
         "En los días de mi juventud escuché el llamado de Dios",
         "Él le dio a mi vida salud, a mi alma la paz y el perdón",
         "Y también a la juventud",
-        "Sólo Cristo ofrece la paz, y a su alma eternal salvación"
+        "//Sólo Cristo ofrece la paz, y a su alma eternal salvación//"
       ]
     },
     {
@@ -24420,7 +24432,7 @@
         "Nuestra vida en el mundo será cual la flor que no vuelve jamás",
         "El placer mundanal le dará a nuestra alma un sufrir eternal",
         "Pronto pasa nuestra juventud, y la vida se acaba también",
-        "Mas si vamos con Cristo Jesús, nuestra vida hallaremos en él"
+        "//Mas si vamos con Cristo Jesús, nuestra vida hallaremos en él//"
       ]
     },
     {
@@ -24430,7 +24442,7 @@
         "Entre tanto que escuchas la voz: \"No hagas duro vuestro corazón\"",
         "Sólo Cristo, el sendero de amor, sólo en él hay pacificación",
         "¿Sabes tú que los días llegarán en que sólo tendrás decepción?",
-        "Mas aunque andes en la soledad, aún Cristo te ofrece perdón"
+        "//Mas aunque andes en la soledad, aún Cristo te ofrece perdón//"
       ]
     }
   ]
@@ -24458,7 +24470,7 @@
         "¡Marchad, oh juventud! Con el Espíritu de Dios puedes vencer",
         "¡Marchad, oh juventud! Que Jesucristo no te deja perecer",
         "Y Dios con su poder te puede defender",
-        "Si sufriereis aquí, allá tendréis una corona por toda la eternidad"
+        "//Si sufriereis aquí, allá tendréis// una corona por toda la eternidad"
       ]
     },
     {
@@ -24484,28 +24496,28 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Las promesas de mi Cristo son muy grandes",
-        "Para todo el que haga su voluntad",
-        "Esfuérzate, mi hermano, en el nombre de Jesús",
-        "Sigamos adelante sirviendo a mi Señor"
+        "//Las promesas de mi Cristo son muy grandes",
+        "Para todo el que haga su voluntad//",
+        "//Esfuérzate, mi hermano, en el nombre de Jesús",
+        "Sigamos adelante sirviendo a mi Señor//"
       ]
     },
     {
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Los mancebos se fatigan y se cansan;",
-        "Los jóvenes flaquean y caen",
-        "Pero, más los que esperan en Jehová,",
-        "Nuevas fuerzas recibirán"
+        "//Los mancebos se fatigan y se cansan;",
+        "Los jóvenes flaquean y caen//",
+        "//Pero, más los que esperan en Jehová,",
+        "Nuevas fuerzas recibirán//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Levantarán alas como águila; son palabras del profeta de Jehová",
-        "Correrán y no se cansarán, caminarán y no se fatigarán"
+        "//Levantarán alas como águila; son palabras del profeta de Jehová//",
+        "//Correrán y no se cansarán, caminarán y no se fatigarán//"
       ]
     }
   ]
@@ -24526,8 +24538,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Si permanecemos siempre, seremos como un jardín",
-        "Plantados en la corriente de la fuente de Dios"
+        "//Si permanecemos siempre, seremos como un jardín",
+        "Plantados en la corriente de la fuente de Dios//"
       ]
     },
     {
@@ -24589,6 +24601,7 @@
 {
   "number": 560,
   "title": "Hermanos, en este día",
+  "author":"Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
@@ -24673,7 +24686,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Los niños son de Cristo, él es su Salvador",
-        "Son joyas muy preciosas, comprólas con su amor"
+        "Son joyas muy preciosas, compró las con su amor"
       ]
     },
     {
@@ -24977,7 +24990,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Cuando sea grande, yo quiero predicar a Jesucristo",
-        "Y llevarle a todas las gentes las buenas nuevas de salvación"
+        "//Y llevarle a todas las gentes las buenas nuevas de salvación//"
       ]
     },
     {
@@ -24985,7 +24998,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Yo quisiera que Dios me diera el poder de los milagros",
-        "Para orar por los niños enfermos, y que sanen de su enfermedad"
+        "//Para orar por los niños enfermos, y que sanen de su enfermedad//"
       ]
     },
     {
@@ -24993,7 +25006,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Oh, Señor, guarda a todos los niños, porque de ellos es el reino",
-        "Es el reino de los cielos, que algún día estaremos allá"
+        "//Es el reino de los cielos, que algún día estaremos allá//"
       ]
     }
   ]
@@ -25158,14 +25171,14 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Santificad mis Sábados dice Jehová,",
+        "//Santificad mis Sábados dice Jehová,",
         "Que sean por señal entre mi pueblo y yo",
         "Qué hermoso es saber que desde la creación;",
         "Lo apartó, lo bendijo y lo santificó",
         "La ley es perfecta que restaura el alma,",
         "Te hace ver todo lo oscuro de tu corazón",
         "Aquí está la paciencia de los santos de Dios:",
-        "Guardan la ley y tienen la fe de Jesús"
+        "Guardan la ley y tienen la fe de Jesús//"
       ]
     },
     {
@@ -25277,14 +25290,14 @@
 {
   "number": 578,
   "title": "Venimos a tu iglesia",
-  "author": "Edwin M. Gutiérrez",
+  "author": "Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Venimos a tu iglesia los sábados, Señor",
-        "Venimos a tu escuela, queremos aprender",
+        "//Venimos a tu iglesia los sábados, Señor",
+        "Venimos a tu escuela, queremos aprender//",
         "Pues sólo tu Palabra muy sabios nos hará",
         "Y gran conocimiento del cielo tendremos",
         "Pues solo tu Palabra muy sabios nos hará",
@@ -25304,8 +25317,8 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Escudriñad las Escrituras: Así dice el Señor",
-        "Estudiad la Biblia si quieres aprender",
+        "//Escudriñad las Escrituras: Así dice el Señor",
+        "Estudiad la Biblia si quieres aprender//",
         "Pues sólo en ellas la vida encontrarás",
         "Y apercibido por siempre estarás",
         "Pues sólo en ellas la vida encontrarás",
@@ -25317,7 +25330,7 @@
 {
   "number": 579,
   "title": "Hoy es un día glorioso",
-  "author": "Edwin M. Gutiérrez",
+  "author": "Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
@@ -25438,14 +25451,14 @@
 {
   "number": 582,
   "title": "En tu Sábado glorioso",
-  "author":"Edwin M. Gutiérrez",
+  "author":"Edwin Gutiérrez",
   "content": [
     {
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
         "En tu sábado glorioso, día santo de mi Señor",
-        "Hemos venido para adorar, sí, adorar y recordar, la creación"
+        "//Hemos venido para adorar, sí, adorar y recordar, la creación//"
       ]
     },
     {
@@ -25453,7 +25466,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Este es el día de descanso que mi Dios estableció",
-        "Seis días tú trabajarás, sábado tú descansarás, no trabajarás"
+        "//Seis días tú trabajarás, sábado tú descansarás, no trabajarás//"
       ]
     },
     {
@@ -25461,7 +25474,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Muchos hoy se han confundido venerando el día del sol",
-        "Dejando así la ley de Dios, su santa ley, para hacer su voluntad"
+        "//Dejando así la ley de Dios, su santa ley, para hacer su voluntad//"
       ]
     },
     {
@@ -25469,7 +25482,7 @@
       "label": "Estrofa 4",
       "lines": [
         "En Hebreos, cuatro, nueve, la Santa Biblia dice así",
-        "Reposo queda para su pueblo, el verdadero pueblo de Dios\" hermoso oíd"
+        "//Reposo queda para su pueblo, el verdadero pueblo de Dios\" hermoso oíd//"
       ]
     }
   ]
@@ -25705,7 +25718,7 @@
         "¿Dónde estaría hoy si no me hubieras perdonado?",
         "Tendría un vacío en mi corazón,",
         "Vagaría sin rumbo y sin dirección",
-        "¡Si no fuera por tu gracia y por tu amor!"
+        "//¡Si no fuera por tu gracia y por tu amor!//"
       ]
     },
     {
@@ -25714,7 +25727,7 @@
       "lines": [
         "Sería como un pájaro herido que se muere en el suelo;",
         "Sería como un ciervo que brama por agua en el desierto",
-        "¡Si no fuera por tu gracia y por tu amor!"
+        "//¡Si no fuera por tu gracia y por tu amor!//"
       ]
     },
     {
@@ -25725,7 +25738,7 @@
         "¿Qué sería de mí si no me hubieras perdonado?",
         "Estaría sin Cristo en mi corazón,",
         "No tendría esperanza de salvación",
-        "¡Si no fuera por su gracia y por su amor!"
+        "//¡Si no fuera por su gracia y por su amor!//"
       ]
     }
   ]
@@ -25816,8 +25829,8 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Y llénanos, Señor, de tu poder, mi Dios;",
-        "Santifícanos, Señor, con tu fuego santo"
+        "//Y llénanos, Señor, de tu poder, mi Dios;",
+        "Santifícanos, Señor, con tu fuego santo//"
       ]
     },
     {
@@ -25986,22 +25999,22 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "¡Oh, mi buen Jesús! hoy te clamo a ti;",
-        "Oye mi oración, hijo de David",
+        "//¡Oh, mi buen Jesús! hoy te clamo a ti;",
+        "Oye mi oración, hijo de David//",
         "Quiero que tú estés a mi lado,",
         "Quiero que tú seas mi existir",
-        "Quiero ser de los redimidos,",
-        "Para ya no volver a sufrir"
+        "//Quiero ser de los redimidos,",
+        "Para ya no volver a sufrir//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "¡Oh, mi buen Pastor, que cuidas de mi aflicción! Yo confío en ti",
+        "//¡Oh, mi buen Pastor, que cuidas de mi aflicción! Yo confío en ti//",
         "En el mundo, herido yo vivía, casi a punto de morir",
-        "Pero tú sanaste mis heridas,",
-        "Y por eso hoy te canto a ti"
+        "//Pero tú sanaste mis heridas,",
+        "Y por eso hoy te canto a ti//"
       ]
     }
   ]
@@ -26150,7 +26163,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Mesa santa del Señor, pan bendito del Señor,",
-        "Para los santos redimidos de humilde corazón"
+        "//Para los santos redimidos de humilde corazón//"
       ]
     },
     {
@@ -26158,7 +26171,7 @@
       "label": "Coro",
       "lines": [
         "Esto dijo el Señor: \"Es el fruto de la vid\"",
-        "No la volveré a tomar hasta en el reino del Señor"
+        "//No la volveré a tomar hasta en el reino del Señor//"
       ]
     },
     {
@@ -26166,7 +26179,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Todos comen de este pan que es el cuerpo del Señor;",
-        "Todas las veces que lo hagáis, la muerte de Cristo anuncias"
+        "//Todas las veces que lo hagáis, la muerte de Cristo anuncias//"
       ]
     },
     {
@@ -26174,7 +26187,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Nuevo pacto del Señor, copa santa de virtud,",
-        "Que del Señor descendió y todo, todo confirmó"
+        "//Que del Señor descendió y todo, todo confirmó//"
       ]
     },
     {
@@ -26182,7 +26195,7 @@
       "label": "Estrofa 4",
       "lines": [
         "En santidad te acercarás a la mesa del Señor;",
-        "Con sencillez de corazón tomad el cuerpo del Señor"
+        "//Con sencillez de corazón tomad el cuerpo del Señor//"
       ]
     }
   ]
@@ -26204,9 +26217,9 @@
       "type": "chorus",
       "label": "Coro",
       "lines": [
-        "Y el pan representa su carne, y el vino su preciosa sangre",
+        "//Y el pan representa su carne, y el vino su preciosa sangre",
         "Con el agua vertida de su costado,",
-        "Nuestros pies, hoy, podemos lavar"
+        "Nuestros pies, hoy, podemos lavar//"
       ]
     },
     {
@@ -26269,8 +26282,14 @@
         "Amo tu ley, mi Señor Jesús,",
         "Amo tu ley, porque te amo a ti",
         "Quiero hacer siempre tu voluntad,",
-        "Porque yo sé que es lo mejor para mí",
-        "…Porque yo sé que es lo mejor para mí…"
+        "Porque yo sé que es lo mejor para mí"
+      ]
+    },
+    {
+      "type": "final",
+      "label": " ",
+      "lines": [
+        "(…Porque yo sé que es lo mejor para mí…)"
       ]
     },
     {
@@ -26718,7 +26737,8 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Despídenos en paz en amor y santidad, en amor y santidad"
+        "Despídenos en paz en amor",
+        "y santidad, en amor y santidad"
       ]
     }
   ]
@@ -26732,17 +26752,7 @@
       "label": "Estrofa 1",
       "lines": [
         "Ya terminamos este culto, le damos gracias al Señor",
-        "Y que derrame sus bendiciones desde esta hora y por siempre"
-      ]
-    },
-    {
-      "type": "verse",
-      "label": "Final",
-      "lines": [
-        "Ya terminamos este culto,",
-        "Le damos gracias al Señor",
-        "Y que derrame sus bendiciones desde esta hora y por siempre",
-        "Amén"
+        "//Y que derrame sus bendiciones desde esta hora y por siempre. Amen//"
       ]
     }
   ]
@@ -26755,7 +26765,7 @@
       "type": "verse",
       "label": "Intro",
       "lines": [
-        "Al venir a este lugar venimos a adorar al Señor",
+        "///Al venir a este lugar venimos a adorar al Señor///",
         "Al Señor, al Señor, al Señor"
       ]
     },
@@ -26763,7 +26773,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Olvida tus problemas, concéntrate en él y adórale",
+        "///Olvida tus problemas, concéntrate en él y adórale///",
         "Adórale, adórale, adórale"
       ]
     },
@@ -26773,8 +26783,8 @@
       "lines": [
         "En el nombre de Jesús, yo me acerco a tu presencia, oh Señor",
         "En el nombre de Jesús, a ofrecerte mi ofrenda, oh Señor",
-        "Es alabanza y adoración lo que te ofrezco, oh Señor",
-        "En el nombre maravilloso de Jesús"
+        "//Es alabanza y adoración lo que te ofrezco, oh Señor",
+        "En el nombre maravilloso de Jesús//"
       ]
     },
     {
@@ -26783,18 +26793,18 @@
       "lines": [
         "Cuán bello es el Señor, cuán hermoso es el Señor",
         "Cuán bello es el Señor, yo le quiero adorar",
-        "La belleza de mi Señor nunca se agotará",
-        "La hermosura de mi Señor siempre resplandecerá"
+        "//La belleza de mi Señor nunca se agotará",
+        "La hermosura de mi Señor siempre resplandecerá//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Venimos ante ti, Señor, con corazones sinceros,",
-        "Llenos de alabanza y de adoración",
-        "Porque tú eres Rey de Reyes y Señor de señores",
-        "Tú eres digno de que todos te adoren"
+        "//Venimos ante ti, Señor, con corazones sinceros,",
+        "Llenos de alabanza y de adoración//",
+        "//Porque tú eres Rey de Reyes y Señor de señores",
+        "Tú eres digno de que todos te adoren//"
       ]
     },
     {
@@ -26804,9 +26814,9 @@
         "Padre del Cielo, te adoramos, alzamos nuestra voz en alto",
         "Que tu reino se establezca en la alabanza,",
         "Que en tu pueblo se demuestre tu poder",
-        "Bendito sea el Señor, Dios poderoso,",
+        "//Bendito sea el Señor, Dios poderoso,",
         "Quien fue, quien es y quien será",
-        "Bendito sea el Señor, Dios poderoso, por siempre reinará"
+        "Bendito sea el Señor, Dios poderoso, por siempre reinará//"
       ]
     },
     {
@@ -26817,8 +26827,8 @@
         "Y adórale de corazón",
         "Entra en la presencia del Señor con gratitud",
         "Y alza tu voz con júbilo",
-        "Dad honra y gloria y alabanza al Señor,",
-        "Oh, Cristo, nombre sin igual"
+        "//Dad honra y gloria y alabanza al Señor,",
+        "Oh, Cristo, nombre sin igual//"
       ]
     }
   ]
@@ -26831,9 +26841,9 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Dios está aquí, tan cierto como el aire que respiro;",
+        "//Dios está aquí, tan cierto como el aire que respiro;",
         "Tan cierto como en la mañana se levanta el sol,",
-        "Tan cierto que cuando le hablo él me puede oír"
+        "Tan cierto que cuando le hablo él me puede oír//"
       ]
     },
     {
@@ -26868,7 +26878,7 @@
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "Puedo confiar en el Señor que él no va a fallar",
+        "//Puedo confiar en el Señor que él no va a fallar//",
         "Si el sol llegare a oscurecer y no brille más,",
         "Yo igual confío en el Señor, que él no va a fallar"
       ]
@@ -26879,17 +26889,17 @@
       "lines": [
         "Llevar la cruz de Cristo, a veces es dolor,",
         "Más Dios nos ha provisto, la prueba de su amor",
-        "Concédeme, Señor Jesús, poder llegar a tu mansión;",
-        "Lugar de santa y bella luz, lugar de rica bendición"
+        "//Concédeme, Señor Jesús, poder llegar a tu mansión;",
+        "Lugar de santa y bella luz, lugar de rica bendición//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 7",
       "lines": [
-        "Todo es posible si puedes creer",
+        "//Todo es posible si puedes creer",
         "Fe mueve la mano de Dios, en su Palabra viva;",
-        "Todo es posible si puedes creer"
+        "Todo es posible si puedes creer//"
       ]
     },
     {
@@ -26950,17 +26960,17 @@
       "lines": [
         "Hay una fuente en mí que está brotando,",
         "Que está fluyendo dentro de mí",
-        "Es como un río de alabanza, y de adoración,",
-        "Dirigido hacia ti, Señor Jesús, ¡recíbelo!"
+        "//Es como un río de alabanza, y de adoración,",
+        "Dirigido hacia ti, Señor Jesús, ¡recíbelo!//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Tú eres digno de abrir los sellos, Señor",
-        "Porque fuiste inmolado, y tu sangre me ha salvado;",
-        "Porque fuiste inmolado, y tu poder me ha levantado",
+        "//Tú eres digno de abrir los sellos, Señor//",
+        "//Porque fuiste inmolado, y tu sangre me ha salvado;",
+        "Porque fuiste inmolado, y tu poder me ha levantado//",
         "Gloria a Dios, gloria a Dios. Gloria a Dios, gloria a Dios"
       ]
     }
@@ -26974,19 +26984,19 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Mi pensamiento eres tú, Señor",
+        "//Mi pensamiento eres tú, Señor//",
         "Mi pensamiento eres tú, Señor",
         "Mi pensamiento eres tú;",
-        "Porque tú me has dado la vida,",
+        "//Porque tú me has dado la vida,",
         "Porque tú me has dado el existir,",
-        "Porque tú me has dado cariño, me has dado amor"
+        "Porque tú me has dado cariño, me has dado amor//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Gracias, Cristo, gracias, Cristo",
+        "//Gracias, Cristo, gracias, Cristo//",
         "Levantemos nuestras manos en señal de gratitud",
         "Gracias, Cristo, gracias, Cristo"
       ]
@@ -27013,12 +27023,12 @@
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "El Espíritu de Dios está en este lugar,",
+        "//El Espíritu de Dios está en este lugar,",
         "El Espíritu de Dios se mueve en este lugar;",
         "Está aquí para consolar,",
         "Está aquí para liberar,",
         "Está aquí para guiar,",
-        "El Espíritu de Dios está aquí"
+        "El Espíritu de Dios está aquí//"
       ]
     },
     {
@@ -27109,8 +27119,8 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Sea mucho o sea poco, lo importante es ofrendar",
-        "Recuerda, mi hermano, que Dios no ve la cantidad, sino la calidad"
+        "//Sea mucho o sea poco, lo importante es ofrendar",
+        "Recuerda, mi hermano, que Dios no ve la cantidad, sino la calidad//"
       ]
     }
   ]
@@ -27123,7 +27133,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Pon aceite en mi lámpara, Señor",
+        "//Pon aceite en mi lámpara, Señor//",
         "Que yo quiero servirte con amor;",
         "Pon aceite en mi lámpara, Señor"
       ]
@@ -27133,7 +27143,7 @@
       "label": "Estrofa 2",
       "lines": [
         "Señor Jesús, tú eres mi vida, Señor Jesús, tú eres mi amor",
-        "Salvaste mi alma perdida, por eso te canto con el corazón",
+        "//Salvaste mi alma perdida, por eso te canto con el corazón//",
         "Con el corazón, con el corazón"
       ]
     },
@@ -27141,35 +27151,35 @@
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Satúrame, Señor, con tu Espíritu",
-        "Que pueda yo sentir el fuego de tu amor",
-        "Aquí en mi corazón, oh, Dios"
+        "////Satúrame, Señor, con tu Espíritu////",
+        "//Que pueda yo sentir el fuego de tu amor",
+        "Aquí en mi corazón, oh, Dios//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Para ti, oh, Jehová, para ti quiero cantar,",
-        "Siento gozo en mi alma cuando canto para ti",
-        "Por tu gran amor y tu fidelidad",
-        "Y mi alma se goza cuando canto para ti"
+        "//Para ti, oh, Jehová, para ti quiero cantar,",
+        "Siento gozo en mi alma cuando canto para ti//",
+        "//Por tu gran amor y tu fidelidad",
+        "Y mi alma se goza cuando canto para ti//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "Cantaré a Jehová por siempre; su diestra es todo poder"
+        "//Cantaré a Jehová por siempre; su diestra es todo poder//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 6",
       "lines": [
-        "Echó a la mar los que le seguían, jinete y caballo echó a la mar",
+        "//Echó a la mar los que le seguían, jinete y caballo echó a la mar//",
         "Echó a la mar los carros de Faraón",
-        "La, la, la", "la, la, la", "La, la, la, la, la, la, la, la, la"
+        "//La, la, la", "la, la, la", "La, la, la, la, la, la, la, la, la//"
       ]
     }
   ]
@@ -27182,16 +27192,16 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "En el principio el Espíritu de Dios se movía sobre las aguas",
-        "Pero ahora se está moviendo dentro de mi corazón"
+        "//En el principio el Espíritu de Dios se movía sobre las aguas//",
+        "//Pero ahora se está moviendo dentro de mi corazón//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Oh, Jerusalén, ¡qué bonita eres! Calles de oro, mar de cristal",
-        "Por esas calles yo voy a caminar, calles de oro, mar de cristal"
+        "//Oh, Jerusalén, ¡qué bonita eres! Calles de oro, mar de cristal",
+        "Por esas calles yo voy a caminar, calles de oro, mar de cristal//"
       ]
     },
     {
@@ -27199,7 +27209,7 @@
       "label": "Estrofa 3",
       "lines": [
         "Allá en el cielo hay un hogar, una corona para heredar",
-        "Si tú te duermes, otro vendrá y tu corona heredará"
+        "Si tú te duermes, otro vendrá y tu corona //heredará//"
       ]
     },
     {
@@ -27209,14 +27219,14 @@
         "Santo, Santo, Santo, decían los querubines",
         "Santo, Santo, Santo es el Señor Jehová",
         "Santo, Santo, Santo es Dios, quien nos redime",
-        "Por ser tres veces Santo, la tierra llena de su gloria está"
+        "//Por ser tres veces Santo, la tierra llena de su gloria está//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "El cielo y la tierra pasará, más su Palabra no pasará",
+        "//El cielo y la tierra pasará, más su Palabra no pasará//",
         "No, no, no, no. No, no pasará. No, no, no, no. No, no pasará"
       ]
     },
@@ -27227,7 +27237,7 @@
         "Pronto vendrá el Señor, su iglesia a levantar",
         "Gloriosa, la iglesia que compró a precio de sangre preciosa",
         "Los ángeles vendrán, y allí se reunirá su pueblo",
-        "Ahí yo quiero estar para escuchar su voz, cuando él me diga: \"Ven, buen siervo\""
+        "//Ahí yo quiero estar para escuchar su voz, cuando él me diga: \"Ven, buen siervo\"//"
       ]
     }
   ]
@@ -27240,16 +27250,16 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Cantar, cantar a Dios, cantar es una bendición, poder a Dios cantar",
-        "Pues nuevas son cada mañana las misericordias del Señor Jehová"
+        "//Cantar, cantar a Dios, cantar es una bendición, poder a Dios cantar//",
+        "//Pues nuevas son cada mañana las misericordias del Señor Jehová//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Cuando el pueblo de Israel que cautivado fue no podía cantar",
-        "Pues nuevas son cada mañana las misericordias del Señor Jehová"
+        "//Cuando el pueblo de Israel que cautivado fue no podía cantar//",
+        "//Pues nuevas son cada mañana las misericordias del Señor Jehová//"
       ]
     }
   ]
