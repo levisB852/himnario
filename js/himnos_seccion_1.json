@@ -27282,27 +27282,27 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Yo lo siento en mí, yo lo siento en mí,",
-        "Su Espíritu me hace cantar"
+        "//Yo lo siento en mí, yo lo siento en mí,",
+        "Su Espíritu me hace cantar//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Allá en el monte Horeb, la zarza ardía",
+        "//Allá en el monte Horeb, la zarza ardía//",
         "Moisés quería saber ¿Por qué la zarza ardía?",
         "Y no se consumía quería saber",
-        "Oyó una voz del cielo que le decía:",
-        "Quita, quita, quita el calzado de tus pies,",
-        "Porque el lugar que estás, Santo es"
+        "//Oyó una voz del cielo que le decía://",
+        "//Quita, quita, quita el calzado de tus pies,",
+        "Porque el lugar que estás, Santo es//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Manda fuego, Señor y bautízanos con tu poder",
+        "//Manda fuego, Señor// y bautízanos con tu poder",
         "No dejéis apagar, no dejéis apagar,",
         "El Espíritu Santo de Dios"
       ]
@@ -27311,25 +27311,25 @@
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "En el altar de Dios el fuego está encendido,",
+        "//En el altar de Dios// el fuego está encendido,",
         "En el altar de Dios",
         "Nadie lo podrá apagar, nadie lo podrá apagar,",
-        "Porque el fuego del Señor en mi corazón está"
+        "Porque el fuego del Señor en mi corazón está//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 6",
       "lines": [
-        "Prepárate para que sientas el Espíritu de Dios;",
-        "Y déjalo que se mueva dentro de tu corazón"
+        "///Prepárate para que sientas/// el Espíritu de Dios;",
+        "///Y déjalo que se mueva/// dentro de tu corazón"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 7",
       "lines": [
-        "Pasa por aquí, Señor, pasa por aquí",
+        "//Pasa por aquí, Señor, pasa por aquí//",
         "Oh, Señor, pasa por aquí, oh, oh, oh, oh, Señor, pasa por aquí"
       ]
     },
@@ -27337,7 +27337,7 @@
       "type": "verse",
       "label": "Estrofa 8",
       "lines": [
-        "Espíritu Santo, lléname de ti",
+        "//Espíritu Santo, lléname de ti//",
         "Oh Señor, lléname de ti, oh, oh, oh, oh Señor, lléname de ti"
       ]
     },
@@ -27371,7 +27371,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Alabaré, alabaré, alabaré, alabaré, alabaré a mi Señor",
+        "//Alabaré, alabaré, alabaré, alabaré, alabaré a mi Señor//",
         "Juan vio el número de los redimidos, y todos alababan al Señor",
         "Unos oraban, y otros cantaban, pero todos alababan al Señor"
       ]
@@ -27380,7 +27380,7 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Yo le alabo de corazón, yo le alabo con mi voz",
+        "//Yo le alabo de corazón, yo le alabo con mi voz//",
         "Y si me falta la voz yo le alabo con las manos",
         "Y si me faltan las manos yo le alabo con los pies",
         "Y si me faltan los pies yo le alabo con el alma",
@@ -27391,24 +27391,24 @@
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Alabar a Cristo quiero, yo quiero alabar a Dios",
-        "Alábale, mi hermano, alabemos al Señor"
+        "//Alabar a Cristo quiero, yo quiero alabar a Dios//",
+        "//Alábale, mi hermano, alabemos al Señor//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "La presencia de Dios, está en este lugar",
-        "Y si tú le alabas su poder recibirás"
+        "//La presencia de Dios, está en este lugar//",
+        "//Y si tú le alabas su poder recibirás//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 5",
       "lines": [
-        "Jehová está en su templo alábale que él vive",
-        "Alábale, alábale, alábale que él vive"
+        "//Jehová está en su templo alábale que él vive//",
+        "//Alábale, alábale, alábale que él vive//"
       ]
     },
     {
@@ -27419,7 +27419,7 @@
         "Pero ¿quién es que salva? ¡Cristo es el que salva!",
         "Pero ¿quién es el que sana? ¡Cristo es el que sana!",
         "Pero ¿quién es el que viene? ¡Cristo es el que viene!",
-        "Mi Cristo vive, ¡a su nombre Gloria!"
+        "//Mi Cristo vive, ¡a su nombre Gloria!//"
       ]
     }
   ]
@@ -27432,10 +27432,10 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Yo sé que Cristo viene, yo espero su venida",
+        "//Yo sé que Cristo viene, yo espero su venida//",
         "Y aquel que esté preparado se irá con él para arriba,",
         "Para arriba y para arriba, para arriba y no para abajo",
-        "Subiendo, subiendo, subiendo y no bajando"
+        "//Subiendo, subiendo, subiendo y no bajando//"
       ]
     },
     {
@@ -27444,31 +27444,38 @@
       "lines": [
         "Ya la iglesia se va de esta tierra,",
         "Porque aquí no está su mansión",
-        "Volaremos con Cristo a los cielos,",
-        "Donde mora Jesús mi Señor"
+        "//Volaremos con Cristo a los cielos,",
+        "Donde mora Jesús mi Señor//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Mi alma volará, mi alma volará;",
-        "Al son de la trompeta mi alma volará",
-        "Jesús viene en las nubes su iglesia a levantar,",
-        "El que no se prepare, aquí se quedará"
+        "//Mi alma volará, mi alma volará;",
+        "Al son de la trompeta mi alma volará//",
+        "//Jesús viene en las nubes su iglesia a levantar,",
+        "El que no se prepare, aquí se quedará//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Cuando Cristo venga en gloria yo no me voy a quedar",
+        "//Cuando Cristo venga en gloria yo no me voy a quedar//",
+        "//Seremos levantados con poder",
         "Seremos levantados con poder",
         "Seremos levantados con poder",
-        "Seremos levantados con poder",
-        "Para la nueva Jerusalén",
-        "Ah que tú te vas y que yo también,",
-        "Para la nueva Jerusalén"
+        "Para la nueva Jerusalén//"
+    ]  
+  },
+  {
+      "type": "verse",
+      "label": "Estrofa 5",
+      "lines": [
+        "//Ah que tú te vas y que yo también,",
+        "Para la nueva Jerusalén//"
+      
       ]
     }
   ]
@@ -27481,7 +27488,7 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Yo quiero andar en las calles de oro con Jesús",
+        "//Yo quiero andar en las calles de oro con Jesús//",
         "Yo quiero andar en las calles de oro,",
         "Quiero andar en las calles de oro,",
         "Quiero andar en las calles de oro con Jesús"
@@ -27508,8 +27515,8 @@
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Yo sé que mi Redentor me va a venir a llevar",
-        "Del polvo o de donde esté de allí me levantará"
+        "//Yo sé que mi Redentor me va a venir a llevar//",
+        "//Del polvo o de donde esté de allí me levantará//"
       ]
     }
   ]
@@ -27549,7 +27556,8 @@
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Una mirada de fe, una mirada al Señor es la que puede salvar al pecador",
+        "//Una mirada de fe, una mirada al Señor es la que",
+        "puede salvar al pecador//",
         "Y si tú vienes a Cristo Jesús, él te perdonará,",
         "Porque una mirada de fe es la que te puede salvar"
       ]
@@ -27558,8 +27566,8 @@
       "type": "verse",
       "label": "Estrofa 3",
       "lines": [
-        "Más allá veremos al Señor en aquella santa Sión",
-        "Y allí estaré en la viña trabajando, en la viña del Señor"
+        "///Más allá veremos al Señor/// en aquella santa Sión",
+        "//Y allí estaré en la viña trabajando, en la viña del Señor//"
       ]
     },
     {
@@ -27576,7 +27584,7 @@
       "label": "Estrofa 5",
       "lines": [
         "Haz tu casa sobre la Roca que Jesucristo te ayudará",
-        "Que vengan ríos y fuertes vientos, pero tu casa no caerá"
+        "//Que vengan ríos y fuertes vientos, pero tu casa no caerá//"
       ]
     },
     {
@@ -27586,7 +27594,7 @@
         "Yo tengo un Abogado que me defiende,",
         "Él siempre está ocupado pero me atiende;",
         "Él nunca pierde un caso, siempre lo gana",
-        "Si alguno se interesa en saber su nombre, Jesús se llama"
+        "//Si alguno se interesa en saber su nombre, Jesús se llama//"
       ]
     }
   ]
@@ -27599,8 +27607,8 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Somos más que vencedores, tenemos por capitán",
-        "A Jesús el Rey de gloria; la batalla él ganará"
+        "//Somos más que vencedores, tenemos por capitán",
+        "A Jesús el Rey de gloria; la batalla él ganará//"
       ]
     },
     {
@@ -27628,7 +27636,7 @@
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Si él a mí me da poder,",
+        "//Si él a mí me da poder,//",
         "Si él a mí me da poder para poder vencer"
       ]
     },
@@ -27648,16 +27656,17 @@
         "¿Quién dijo que no había victoria?",
         "El tal no ha conocido al Cristo de la gloria;",
         "Yo digo que sí, que victoria tenemos,",
-        "Porque ya conocemos la gloria de Dios"
+        "//Porque ya conocemos la gloria de Dios//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 7",
       "lines": [
-        "Conozco a un hombre de poder, a un hombre de poder, a un hombre de poder",
-        "Fuerte más que el viento, su gloria es más que el mar,",
-        "Nunca me deja de amar, en él puedo yo confiar"
+        "//Conozco a un hombre de poder, a un hombre de poder,",
+        "a un hombre de poder//",
+        "//Fuerte más que el viento, su gloria es más que el mar,",
+        "Nunca me deja de amar, en él puedo yo confiar//"
       ]
     },
     {
@@ -27667,9 +27676,9 @@
         "Te alabarán, oh, Jehová, todos los reyes, todos los reyes de la tierra,",
         "Los que han oído los dichos de tu boca,",
         "Y cantarán de los caminos de Jehová",
-        "Porque la gloria de Jehová es grande,",
+        "//Porque la gloria de Jehová es grande,",
         "Porque Jehová es perfecto en sus caminos,",
-        "Porque Jehová atiende al humilde, más mira de lejos al altivo"
+        "Porque Jehová atiende al humilde, más mira de lejos al altivo//"
       ]
     }
   ]
@@ -27694,8 +27703,8 @@
       "lines": [
         "Esta obra no se va a parar, esta obra no se va a parar,",
         "Esta obra no se va a parar porque sale de mi corazón",
-        "El fuego cae, cae, los males salen, salen,",
-        "Y los creyentes alaban al Señor"
+        "//El fuego cae, cae, los males salen, salen,",
+        "Y los creyentes alaban al Señor//"
       ]
     },
     {
@@ -27705,16 +27714,17 @@
         "Este es el Cristo que yo predico, y no me canso de predicar,",
         "Él sana a los enfermos, reprende a los demonios,",
         "Calma los vientos y la tempestad",
-        "Y yo le alabaré, y yo le alabaré, y yo le alabaré diciendo: ¡Gloria a Dios!"
+        "//Y yo le alabaré, y yo le alabaré,",
+        " y yo le alabaré diciendo: ¡Gloria a Dios!//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Luchó Jacob con el ángel de Jehová",
-        "En su lucha le decía: \"Si no me bendices no te vas\"",
-        "Si no me bendices no te vas"
+        "//Luchó Jacob con el ángel de Jehová//",
+        "//En su lucha le decía: \"Si no me bendices no te vas\"//",
+        "///Si no me bendices no te vas///"
       ]
     },
     {
@@ -27737,20 +27747,20 @@
       "type": "verse",
       "label": "Estrofa 1",
       "lines": [
-        "Mira cuál amor nos ha dado el Padre,",
-        "Que seamos hechos los hijos de Dios",
-        "Por eso el mundo ya no nos conoce,",
-        "Porque a él tampoco no le conoció"
+        "//Mira cuál amor nos ha dado el Padre,",
+        "Que seamos hechos los hijos de Dios//",
+        "//Por eso el mundo ya no nos conoce,",
+        "Porque a él tampoco no le conoció//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 2",
       "lines": [
-        "Mira, pecador, si no te arrepientes,",
-        "De seguro al cielo no podrás entrar",
-        "Porque el Señor lo ha dicho en su Palabra:",
-        "\"Alma que pecare esa morirá\""
+        "//Mira, pecador, si no te arrepientes,",
+        "De seguro al cielo no podrás entrar//",
+        "//Porque el Señor lo ha dicho en su Palabra:",
+        "\"Alma que pecare esa morirá\"//"
       ]
     },
     {
@@ -27760,17 +27770,18 @@
         "No importa de tantas iglesias,",
         "Si una es la que Dios llevará",
         "Si tú guardas del todo su Palabra,",
-        "Dame la mano y mi hermano serás",
-        "Dame la mano, dame la mano, dame la mano y mi hermano serás"
+        "//Dame la mano y mi hermano serás",
+        "Dame la mano, dame la mano, dame la mano y mi hermano serás//"
       ]
     },
     {
       "type": "verse",
       "label": "Estrofa 4",
       "lines": [
-        "Ninguna religión puede cambiar tu ser,",
-        "La sangre de Jesús todo lo puede hacer",
-        "Pero conviértete a él, conviértete a él, conviértete a él y salvo serás"
+        "//Ninguna religión puede cambiar tu ser,",
+        "La sangre de Jesús todo lo puede hacer//",
+        "//Pero conviértete a él, conviértete a él,",
+        "conviértete a él y salvo serás//"
       ]
     },
     {
