@@ -666,3 +666,18 @@ body.modo-oscuro .menu-compartir img[alt="Copiar"] {
     height: 36px;
   }
 }
+.btn-proyector {
+  background: none;
+  border: none;
+  padding: 0.3rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.btn-proyector img {
+  width: 24px;
+  height: 24px; 
+}
+
+body.modo-oscuro .btn-proyector img {
+  filter: brightness(1.2) invert(1);
+}

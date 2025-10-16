@@ -313,3 +313,20 @@ function renderPagination(totalItems) {
   container.appendChild(info);
   container.appendChild(nextBtn);
 }
+
+// ------------------------------
+// PREYECTAR HIMNO
+// ------------------------------
+function activarModoProyeccion() {
+  const titulo = document.getElementById('hymnTitle')?.innerText || '';
+  const letra = document.getElementById('hymnLyrics')?.innerText || '';
+  const contenido = `${titulo}\n\n${letra}`;
+  
+  if (!letra.trim()) {
+    alert("No se encontró la letra del himno.");
+    return;
+  }
+
+  localStorage.setItem('letraHimno', contenido);
+  window.open('proyeccion.html', '_blank');
+}

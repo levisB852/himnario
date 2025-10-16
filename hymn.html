@@ -24,9 +24,14 @@
   <!-- Botón para agregar al himnario -->
   <button id="favBtn" class="nav-btn" onclick="agregarAHimnario()">➕ Agregar a mi Himnario</button>
 
+  
   <!-- Contenido del himno -->
   <main id="hymnContent">
+    
     <div class="compartir-wrapper">
+      <button class="btn-proyector" onclick="activarModoProyeccion()" title="Proyectar himno">
+           <img src="img/infographic_2572455.png" alt="Proyector" />
+      </button>
       <button id="btnToggleCompartir" class="btn-icono">
         <img src="icons/share.svg" alt="Compartir" />
       </button>
@@ -45,12 +50,15 @@
         </button>
       </div>
     </div>
-
     <h2 id="hymnTitle"></h2>
     <div id="hymnLyrics"></div>
     <audio id="audioPlayer" controls></audio>
     <div id="navButtons"></div>
+    
   </main>
+
+  
+
 
   <!-- Panel de configuración -->
   <div id="panelConfiguracion" class="panel-config">
