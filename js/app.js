@@ -35,22 +35,6 @@ fetch('js/himnos_seccion_1.json')
     }
   });
 
-  
-// ------------------------------
-//PROYECCION
-// ------------------------------
-  function activarModoProyeccion() {
-  const titulo = document.getElementById('hymnTitle')?.innerText || '';
-  const letra = document.getElementById('hymnLyrics')?.innerText || '';
-  const contenido = `${titulo}\n\n${letra}`;
-  if (!letra.trim()) {
-    alert("No se encontró la letra del himno.");
-    return;
-  }
-  localStorage.setItem('letraHimno', contenido);
-  window.open('proyeccion.html', '_blank');
-}
-
 
 // ------------------------------
 // 3. Mostrar lista normal con paginación
