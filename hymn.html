@@ -142,4 +142,34 @@
     })();
   </script>
 </body>
-</html>
+<script>
+  function activarModoProyeccion() {
+  // Intenta obtener el himno actual desde la variable global o el DOM
+  let himno = window.hymnData;
+
+  // Si no existe, lo construimos desde lo que está visible en la página
+  if (!himno) {
+    const titulo = document.getElementById("hymnTitle")?.innerText || "Himno sin título";
+    const estrofas = [];
+    document.querySelectorAll("#hymnLyrics > div").forEach(div => {
+      const tipo = div.classList.contains("coro") ? "chorus" : "verse";
+      const label = div.querySelector("h4")?.innerText || "";
+      const lineas = Array.from(div.querySelectorAll("p")).map(p => p.innerText);
+      estrofas.push({ type: tipo, label: label, lines: lineas });
+    });
+    himno = { title: titulo, content: estrofas };
+  }
+
+  // Verificación antes de proyectar
+  if (!himno.content || himno.content.length === 0) {
+    alert("No se encontró contenido del himno para proyectar.");
+    return;
+  }
+
+  // Guardar en el almacenamiento local
+  localStorage.setItem("himnoSeleccionado", JSON.stringify(himno));
+
+  // Abrir la pantalla de proyección
+  window.open("proyeccion.html", "_blank");
+}
+</script>
