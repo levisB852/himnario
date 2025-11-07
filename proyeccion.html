@@ -6,7 +6,6 @@
   <title>Proyección del Himno</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link rel="icon" href="data:,">
-
   <style>
     html, body {
       margin: 0;
@@ -20,18 +19,25 @@
       align-items: center;
       text-align: center;
       overflow: hidden;
-      transition: background 0.8s ease; /* más ágil */
+      transition: background 0.8s ease;
+      -webkit-text-size-adjust: 100%;
     }
 
-    /* MÁS ANCHO Y TRANSICIÓN MÁS RÁPIDA */
+    /* Bloque siempre horizontal y ancho */
     #bloque {
       opacity: 0;
-      transform: translateY(16px); /* antes 25px */
-      transition: opacity 0.28s ease, transform 0.28s ease; /* antes 0.6s */
-      max-width: min(1600px, 95vw); /* antes 85% */
-      padding: 0 2vw;               /* nuevo: margen lateral */
-      white-space: pre-line;
+      transform: translateY(16px);
+      transition: opacity 0.28s ease, transform 0.28s ease;
+
+      width: 100vw;              /* ocupa todo el ancho */
+      max-width: 2000px;         /* para proyectores grandes */
+      padding: 0 2.5vw;
+      box-sizing: border-box;
       margin: 0 auto;
+
+      white-space: pre-wrap;     /* respeta \n */
+      writing-mode: horizontal-tb;
+      text-orientation: mixed;
     }
     #bloque.visible { opacity: 1; transform: translateY(0); }
 
@@ -39,17 +45,24 @@
       font-size: 1.6rem;
       font-family: 'Playfair Display', serif;
       color: #8ab4f8;
-      margin-bottom: 1rem;
+      margin-bottom: 0.6rem;
       letter-spacing: 1px;
     }
 
+    /* Tamaño base; auto-fit podrá bajarlo si no cabe */
     #textoBloque {
       font-size: 2.8rem;
-      line-height: 1.5;
+      line-height: 1.46;
       font-weight: 500;
       text-shadow: 0 0 25px rgba(255,255,255,0.15);
-      overflow-wrap: anywhere; /* nuevo: para versos largos */
-      word-break: normal;
+
+      /* Mantener en horizontal, sin cortar cada letra */
+      overflow-wrap: normal;
+      word-break: keep-all;
+      hyphens: auto;
+
+      writing-mode: horizontal-tb;
+      text-orientation: mixed;
     }
 
     .fullscreen-btn {
@@ -76,6 +89,7 @@
       font-size: 0.8rem;
       color: #ffffff88;
       font-style: italic;
+      user-select: none;
     }
 
     .badge {
@@ -89,6 +103,7 @@
       border-radius: 6px;
       backdrop-filter: blur(6px);
       letter-spacing: .3px;
+      user-select: none;
     }
 
     .toast {
@@ -130,10 +145,10 @@
     let indice = 0;
 
     // Mapeo estrofa N (1-based) -> índice en 'contenido'
-    let verseToContentIndex = []; // p.ej. [0, 2, 4, ...]
+    let verseToContentIndex = [];
     let totalVerses = 0;
 
-    // Buffer para capturar números multi-dígito
+    // Buffer para números multi-dígito
     let numberBuffer = "";
     let bufferTimer = null;
     const BUFFER_DELAY = 800; // ms
@@ -149,6 +164,46 @@
       return c;
     };
 
+    // ====== AUTO-FIT para mantener presentación horizontal ======
+    const BASE_FONT_REM = 2.8;  // debe coincidir con CSS
+    const MIN_FONT_REM  = 1.6;  // hasta dónde puede bajar
+    const STEP_REM      = 0.05;
+
+    function alturaDisponibleTexto() {
+      const paddingSeguridad = 40;
+      const infoAlt = 28;
+      const r = tituloBloque.getBoundingClientRect();
+      const disponible = window.innerHeight - r.top - r.height - infoAlt - paddingSeguridad;
+      return Math.max(120, disponible);
+    }
+
+    function fitTextoBloque() {
+      textoBloque.style.fontSize = `${BASE_FONT_REM}rem`;
+      const maxH = alturaDisponibleTexto();
+      if (textoBloque.scrollHeight <= maxH) return;
+
+      let lo = MIN_FONT_REM, hi = BASE_FONT_REM, best = MIN_FONT_REM;
+      while (hi - lo > STEP_REM) {
+        const mid = (lo + hi) / 2;
+        textoBloque.style.fontSize = `${mid}rem`;
+        void textoBloque.offsetHeight;
+        if (textoBloque.scrollHeight <= maxH) {
+          best = mid;
+          lo = mid + STEP_REM;
+        } else {
+          hi = mid - STEP_REM;
+        }
+      }
+      textoBloque.style.fontSize = `${Math.max(MIN_FONT_REM, Math.min(best, BASE_FONT_REM)).toFixed(2)}rem`;
+    }
+
+    function debounce(fn, wait=120) {
+      let t;
+      return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), wait); };
+    }
+    const fitDebounced = debounce(fitTextoBloque, 60);
+    // ============================================================
+
     // --- Carga y expansión (coro automático si hay exactamente 1) ---
     (function init() {
       if (!raw) {
@@ -158,31 +213,26 @@
       try {
         const himno = JSON.parse(raw);
         const original = Array.isArray(himno.content) ? himno.content : [];
-        const chorusIndices = original
-          .map((b, i) => isChorus(b) ? i : -1)
-          .filter(i => i !== -1);
+        const chorusIndices = original.map((b,i)=>isChorus(b)?i:-1).filter(i=>i!==-1);
 
         if (chorusIndices.length === 1) {
           const coroBase = normalizeChorus(original[chorusIndices[0]]);
           const expandido = [];
-
           for (let i = 0; i < original.length; i++) {
             const actual = original[i];
             expandido.push(clone(actual));
-
             if (isVerse(actual)) {
               const siguiente = original[i + 1];
               const vieneCoroDespues = isChorus(siguiente);
               if (!vieneCoroDespues) expandido.push(clone(coroBase));
             }
           }
-          // Si terminó en estrofa sin coro pegado, añade uno
           if (expandido.length && isVerse(expandido[expandido.length - 1])) {
             expandido.push(clone(coroBase));
           }
           contenido = expandido;
         } else {
-          contenido = original; // 0 o varios coros: respetar orden
+          contenido = original;
         }
 
         construirIndiceDeEstrofas();
@@ -192,7 +242,6 @@
       }
     })();
 
-    // Construye el mapeo de estrofas ignorando coros/otros tipos
     function construirIndiceDeEstrofas() {
       verseToContentIndex = [];
       for (let i = 0; i < contenido.length; i++) {
@@ -206,14 +255,18 @@
       if (!contenido[i]) return;
       const { label, lines, type } = contenido[i];
       bloque.classList.remove("visible");
-
       setTimeout(() => {
         tituloBloque.innerText = (label || "").trim();
         textoBloque.innerText  = (Array.isArray(lines) ? lines : []).join("\n");
+
+        // Auto-fit aquí garantiza que no “colapse” en vertical
+        textoBloque.style.fontSize = `${BASE_FONT_REM}rem`;
+        fitTextoBloque();
+
         bloque.classList.add("visible");
         cambiarColorFondo(type);
         actualizarBadge();
-      }, 160); // antes 300ms: más rápido
+      }, 160);
     }
 
     function cambiarColorFondo(type) {
@@ -225,12 +278,11 @@
     }
 
     function activarPantallaCompleta() {
-      if (document.documentElement.requestFullscreen) {
-        document.documentElement.requestFullscreen();
-      }
+      const de = document.documentElement;
+      if (de.requestFullscreen) return de.requestFullscreen();
+      if (de.webkitRequestFullscreen) return de.webkitRequestFullscreen();
     }
 
-    // Calcula en qué # de estrofa (1-based) estamos (si estamos en estrofa)
     function numeroEstrofaActual() {
       const idx = verseToContentIndex.indexOf(indice);
       return idx >= 0 ? (idx + 1) : null;
@@ -238,12 +290,7 @@
 
     function actualizarBadge() {
       const n = numeroEstrofaActual();
-      if (n) {
-        badge.textContent = `E${n}/${totalVerses}`;
-      } else {
-        // Estamos en coro u otro bloque
-        badge.textContent = `Coro`;
-      }
+      badge.textContent = n ? `E${n}/${totalVerses}` : `Coro`;
     }
 
     function toastMsg(msg) {
@@ -253,7 +300,6 @@
       toast._t = setTimeout(() => toast.classList.remove("show"), 900);
     }
 
-    // Salto directo a estrofa N (1..totalVerses)
     function irAEstrofa(n) {
       if (!Number.isInteger(n) || n < 1 || n > totalVerses) {
         toastMsg(`No existe la estrofa ${n}`);
@@ -264,32 +310,19 @@
       toastMsg(`Estrofa ${n}`);
     }
 
-    // Manejo de teclado
+    // Navegación teclado
     document.addEventListener("keydown", (e) => {
-      // Navegación básica
       if (e.key === "ArrowRight" || e.key === " ") {
-        if (indice < contenido.length - 1) {
-          indice++;
-          mostrarBloque(indice);
-        }
+        if (indice < contenido.length - 1) { indice++; mostrarBloque(indice); }
         return;
       }
       if (e.key === "ArrowLeft") {
-        if (indice > 0) {
-          indice--;
-          mostrarBloque(indice);
-        }
+        if (indice > 0) { indice--; mostrarBloque(indice); }
         return;
       }
-
-      // Entrada numérica (multi-dígito) para estrofas
       if (/^\d$/.test(e.key)) {
-        // Ignora '0' al inicio (no hay estrofa 0)
         if (numberBuffer === "" && e.key === "0") return;
-
         numberBuffer += e.key;
-
-        // Reinicia temporizador
         if (bufferTimer) clearTimeout(bufferTimer);
         toastMsg(`E${numberBuffer}…`);
         bufferTimer = setTimeout(() => {
@@ -298,14 +331,16 @@
           irAEstrofa(n);
         }, BUFFER_DELAY);
       }
-
-      // Escape para cancelar buffer
       if (e.key === "Escape") {
         numberBuffer = "";
         if (bufferTimer) clearTimeout(bufferTimer);
         toastMsg("Cancelado");
       }
     });
+
+    // Recalcular auto-fit al cambiar tamaño/FS
+    window.addEventListener('resize', fitDebounced);
+    document.addEventListener('fullscreenchange', fitDebounced);
   </script>
 </body>
 </html>
