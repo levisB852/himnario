@@ -42,17 +42,17 @@
     #bloque.visible { opacity: 1; transform: translateY(0); }
 
     #tituloBloque {
-      font-size: 1.6rem;
+      font-size: 1.8rem;         /* subido de 1.6rem */
       font-family: 'Playfair Display', serif;
       color: #8ab4f8;
       margin-bottom: 0.6rem;
       letter-spacing: 1px;
     }
 
-    /* Tamaño base; auto-fit podrá bajarlo si no cabe */
+    /* Tamaño base; auto-fit podrá bajarlo o subirlo (smart-grow) */
     #textoBloque {
-      font-size: 2.8rem;
-      line-height: 1.46;
+      font-size: 3.2rem;         /* base más grande */
+      line-height: 1.44;
       font-weight: 500;
       text-shadow: 0 0 25px rgba(255,255,255,0.15);
 
@@ -164,9 +164,10 @@
       return c;
     };
 
-    // ====== AUTO-FIT para mantener presentación horizontal ======
-    const BASE_FONT_REM = 2.8;  // debe coincidir con CSS
-    const MIN_FONT_REM  = 1.6;  // hasta dónde puede bajar
+    // ====== AUTO-FIT con smart-grow ======
+    const BASE_FONT_REM = 3.2;  // punto de partida
+    const MIN_FONT_REM  = 1.6;  // mínimo
+    const MAX_FONT_REM  = 3.6;  // máximo de crecimiento
     const STEP_REM      = 0.05;
 
     function alturaDisponibleTexto() {
@@ -178,23 +179,36 @@
     }
 
     function fitTextoBloque() {
-      textoBloque.style.fontSize = `${BASE_FONT_REM}rem`;
       const maxH = alturaDisponibleTexto();
-      if (textoBloque.scrollHeight <= maxH) return;
 
-      let lo = MIN_FONT_REM, hi = BASE_FONT_REM, best = MIN_FONT_REM;
+      // Función helper para probar un tamaño
+      const fits = (rem) => {
+        textoBloque.style.fontSize = `${rem}rem`;
+        void textoBloque.offsetHeight;
+        return textoBloque.scrollHeight <= maxH;
+      };
+
+      // 1) Partimos en BASE. Si no cabe, buscamos hacia abajo (MIN..BASE)
+      let current = BASE_FONT_REM;
+      if (!fits(current)) {
+        let lo = MIN_FONT_REM, hi = BASE_FONT_REM, best = MIN_FONT_REM;
+        while (hi - lo > STEP_REM) {
+          const mid = (lo + hi) / 2;
+          if (fits(mid)) { best = mid; lo = mid + STEP_REM; }
+          else { hi = mid - STEP_REM; }
+        }
+        textoBloque.style.fontSize = `${Math.max(MIN_FONT_REM, best).toFixed(2)}rem`;
+        return;
+      }
+
+      // 2) Si cabe en BASE, intentamos crecer (BASE..MAX) para aprovechar espacio
+      let lo = BASE_FONT_REM, hi = MAX_FONT_REM, best = BASE_FONT_REM;
       while (hi - lo > STEP_REM) {
         const mid = (lo + hi) / 2;
-        textoBloque.style.fontSize = `${mid}rem`;
-        void textoBloque.offsetHeight;
-        if (textoBloque.scrollHeight <= maxH) {
-          best = mid;
-          lo = mid + STEP_REM;
-        } else {
-          hi = mid - STEP_REM;
-        }
+        if (fits(mid)) { best = mid; lo = mid + STEP_REM; }
+        else { hi = mid - STEP_REM; }
       }
-      textoBloque.style.fontSize = `${Math.max(MIN_FONT_REM, Math.min(best, BASE_FONT_REM)).toFixed(2)}rem`;
+      textoBloque.style.fontSize = `${Math.min(MAX_FONT_REM, best).toFixed(2)}rem`;
     }
 
     function debounce(fn, wait=120) {
@@ -202,7 +216,7 @@
       return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), wait); };
     }
     const fitDebounced = debounce(fitTextoBloque, 60);
-    // ============================================================
+    // =====================================
 
     // --- Carga y expansión (coro automático si hay exactamente 1) ---
     (function init() {
@@ -259,8 +273,7 @@
         tituloBloque.innerText = (label || "").trim();
         textoBloque.innerText  = (Array.isArray(lines) ? lines : []).join("\n");
 
-        // Auto-fit aquí garantiza que no “colapse” en vertical
-        textoBloque.style.fontSize = `${BASE_FONT_REM}rem`;
+        // Auto-fit con smart-grow
         fitTextoBloque();
 
         bloque.classList.add("visible");
